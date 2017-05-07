@@ -8,7 +8,7 @@ shopt -s nullglob
 version=$(sw_vers -productVersion)
 cpu=$(uname -p)
 
-if [[ ${cpu} == arm || ${cpu} == arm64 ]]; then
+if [[ ${cpu} == arm ]]; then
     data=/var/lib/dpkg
     model=hw.machine
     arch=iphoneos-arm
@@ -23,7 +23,7 @@ model=$(sysctl -n "${model}")
 status=${data}/status
 
 function lower() {
-    sed -e 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'
+    tr '[:upper:]' '[:lower:]'
 }
 
 # Generate New Package {{{
@@ -52,8 +52,7 @@ EOF
 {
 
 # Delete Old Packages {{{
-    unset firmware
-    unset blank
+    firmware=
 
     while IFS= read -r line; do
         #echo "#${firmware+@}/${blank+@} ${line}" 1>&2
@@ -87,36 +86,21 @@ EOF
     fi
 # }}}
 
-    if [[ ${cpu} == arm || ${cpu} == arm64 ]]; then
-        pseudo "firmware" "${version}" "almost impressive Apple frameworks" "iOS Firmware"
+    if [[ ${cpu} == arm ]]; then
+        pseudo "firmware" "${version}" "almost impressive Apple frameworks"
 
-        while [[ 1 ]]; do
-            gssc=$(gssc 2>&1)
-            if [[ ${gssc} != *'(null)'* ]]; then
-                break
-            fi
-            sleep 1
-        done
-
-        echo "${gssc}" | sed -re '
+        gssc 2>&1 | sed -re '
             /^    [^ ]* = [0-9.]*;$/ ! d;
             s/^    ([^ ]*) = ([0-9.]*);$/\1 \2/;
-            s/([A-Z])/-\L\1/g;
-            s/^"([^ ]*)"/\1/;
+            s/([A-Z])/-\L\1/g; s/^"([^ ]*)"/\1/;
             s/^-//;
             / 0$/ d;
-        ' | while read -r name value; do case "${name}" in
-            (ipad) for name in ipad wildcat; do
-                pseudo "gsc.${name}" "${value}" "this device has a very large screen" "iPad"
-            done;;
-
-            (*)
-                pseudo "gsc.${name}" "${value}" "virtual GraphicsServices dependency"
-            ;;
-        esac; done
+        ' | while read -r name value; do
+            pseudo "gsc.${name}" "${value}" "virtual GraphicsServices dependency"
+        done
     fi
 
-    if [[ ${cpu} == arm || ${cpu} == arm64 ]]; then
+    if [[ ${cpu} == arm ]]; then
         os=ios
     else
         os=macosx
@@ -133,16 +117,14 @@ EOF
 
     pseudo "cy+kernel.$(lower <<<$(sysctl -n kern.ostype))" "$(sysctl -n kern.osrelease)" "virtual kernel dependency"
 
-    pseudo "cy+lib.corefoundation" "$(/usr/libexec/cydia/cfversion)" "virtual corefoundation dependency"
-
 } >"${status}"_
 
 mv -f "${status}"{_,}
 
-if [[ ${cpu} == arm || ${cpu} == arm64 ]]; then
+if [[ ${cpu} == arm ]]; then
     if [[ ! -h /User && -d /User ]]; then
         cp -afT /User /var/mobile
     fi && rm -rf /User && ln -s "/var/mobile" /User
 
-    echo 6 >/var/lib/cydia/firmware.ver
+    echo 3 >/var/lib/cydia/firmware.ver
 fi

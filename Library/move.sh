@@ -20,44 +20,25 @@ function df_() {
 function mv_() {
     src=$1
 
-    if [[ ! -e /var/stash ]]; then
-        mkdir -p /var/db/stash
-        /usr/libexec/cydia/setnsfpn /var/db/stash
-        ln -s -t /var /var/db/stash
-    elif [[ -d /var/stash ]]; then
-        /usr/libexec/cydia/setnsfpn /var/stash
-    fi
-
-    tmp=$(mktemp -d /var/stash/_.XXXXXX)
-    dst=${tmp}/${src##*/}
-
-    chmod 755 "${tmp}"
-    chown root.admin "${tmp}"
-
-    mkdir -- "${dst}" || {
-        rmdir -- "${tmp}"
-        exit 1
-    }
-
-    echo -n "${src}" >"${tmp}.lnk"
+    mkdir -p /var/stash
+    dst=$(mktemp -d /var/stash/"${src##*/}".XXXXXX)
 
     if [[ -e ${src} ]]; then
         chmod --reference="${src}" "${dst}"
         chown --reference="${src}" "${dst}"
 
         cp -aT $v "${src}" "${dst}" || {
-            rm -rf "${tmp}"
+            rm -rf "${dst}"
             exit 1
         }
 
-        mv $v "${src}" "${src}.moved"
-        ln -s "${dst}" "${src}"
-        rm -rf $v "${src}.moved"
+        rm -rf $v "${src}"
     else
         chmod 775 "${dst}"
         chown root.admin "${dst}"
-        ln -s "${dst}" "${src}"
     fi
+
+    ln -s "${dst}" "${src}"
 }
 
 function shift_() {
