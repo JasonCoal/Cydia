@@ -1,0 +1,1077 @@
+	<!doctype html>
+	<!--[if !IE]>
+	<html class="no-js non-ie"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"> <![endif]-->
+	<!--[if IE 7 ]>
+	<html class="no-js ie7"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"> <![endif]-->
+	<!--[if IE 8 ]>
+	<html class="no-js ie8"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"> <![endif]-->
+	<!--[if IE 9 ]>
+	<html class="no-js ie9"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"> <![endif]-->
+	<!--[if gt IE 9]><!-->
+<html class="no-js"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US"> <!--<![endif]-->
+	<head>
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>What is Cydia? &#124; Cydia Installer</title>
+
+		<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		<link rel="pingback" href="http://cydiainstaller.net/xmlrpc.php"/>
+
+		
+<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->
+<meta name="description" content="Cydia is a best Application Software for Apple iOS devices; iPhones, iPads and iPod Touches developed by Mr.Saurik. Cydia is not only an App, but also behave as an App Store. We can use Cydia as an alternate for Apple’s Official App Store." />
+<meta name="keywords" content="about cydia, cydia app" />
+<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->
+
+<style type='text/css'>Default CSS Comment</style><link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="alternate" type="application/rss+xml" title="Cydia Installer &raquo; Feed" href="http://cydiainstaller.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cydia Installer &raquo; Comments Feed" href="http://cydiainstaller.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cydia Installer &raquo; What is Cydia? Comments Feed" href="http://cydiainstaller.net/about-cydia/what-is-cydia/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/cydiainstaller.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.6"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='srp-layout-stylesheet-css'  href='http://cydiainstaller.net/wp-content/plugins/special-recent-posts/css/layout.css?ver=4.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='pt-cv-public-style-css'  href='http://cydiainstaller.net/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=1.9.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-style-css'  href='http://cydiainstaller.net/wp-content/themes/responsive/core/css/style.css?ver=1.9.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='http://cydiainstaller.net/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://cydiainstaller.net/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://cydiainstaller.net/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.13' type='text/css' media='all' />
+<script type='text/javascript' src='http://cydiainstaller.net/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cydiainstaller.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cydiainstaller.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='jailbreaking for Cydia' href='http://cydiainstaller.net/about-cydia/jailbreaking-for-cydia/' />
+<link rel='next' title='iOS 8 devices with Cydia' href='http://cydiainstaller.net/ios-8-jailbreak/devices-with-cydia/' />
+<link rel='canonical' href='http://cydiainstaller.net/about-cydia/what-is-cydia/' />
+
+<script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
+</script>
+<script type="text/javascript" src="http://static.addtoany.com/menu/page.js" async="async"></script>
+
+<!-- Contact Us Form -->
+<style type="text/css">
+.cuf_input {display:none !important; visibility:hidden !important;}
+#contactsubmit:hover, #contactsubmit:focus {
+	background: #849F00 repeat-x;
+	color: #FFF;
+	text-decoration: none;
+}
+#contactsubmit:active {background: #849F00}
+#contactsubmit {
+	color: #FFF;
+	margin-top:5px;
+	margin-bottom:5px;
+	background: #738c00 repeat-x;
+	display: block;
+	float: left;
+	/*height: 28px;*/
+	padding-right: 23px;
+	padding-left: 23px;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+	filter: dropshadow(color=rgba(0, 0, 0, 0.2), offx=0, offy=1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: background 300ms linear;
+-moz-transition: background 300ms linear;
+-o-transition: background 300ms linear;
+transition: background 300ms linear;
+-webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+text-align:center
+}
+#tinyform {
+clear: both;
+width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	/*margin-top:30px;*/
+	padding:20px;
+	padding-bottom:0px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);
+	border:4px solid #FFF;
+	-webkit-transition:all 200ms linear;
+	-moz-transition:all 200ms linear;
+	-o-transition:all 200ms linear;
+	transition:all 200ms linear;
+}
+.cuf_field_1 {
+	margin-bottom:10px;
+}
+.cuf_field {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	background:#fff;
+	border:1px solid #A9B3BC;
+	padding:8px;
+	width:100%;
+	margin-top:5px;
+margin-bottom:15px;
+	outline:none
+}
+.cuf_textarea {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	background:#fff;
+	border:1px solid #A9B3BC;
+	padding:8px;
+	width:100%;
+	margin-top:5px;
+	outline:none;
+margin-bottom:15px;
+}
+
+
+</style>
+<link rel="shortcut icon" href="http://cydiainstaller.net/wp-content/uploads/2015/06/apple-touch-icon-114x114-precomposed3.png"/>
+<link rel="apple-touch-icon" href="http://cydiainstaller.net/wp-content/uploads/2015/06/apple-touch-icon-114x114-precomposed.png"/>
+<meta name="description" content="About Cydia, How to install Cydia for your iPhone, iPad and iPod Touch. Step by step guides for users." />
+<meta name="keywords" content="cydia app,about cydia" />
+  <meta property="og:title" content="What is Cydia?" />
+  <meta property="og:type" content="blog" />
+  <meta property="og:description" content="About Cydia, How to install Cydia for your iPhone, iPad and iPod Touch. Step by step guides for users." />
+  	<meta property="og:image" content="http://cydiainstaller.net/wp-content/uploads/2014/08/aaaaa-300x241.jpg" />
+  <meta property="og:url" content="http://cydiainstaller.net/about-cydia/what-is-cydia/" />
+  <meta property="og:site_name" content="Cydia Installer" />
+  <meta name="twitter:title" content="What is Cydia?" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="About Cydia, How to install Cydia for your iPhone, iPad and iPod Touch. Step by step guides for users." />
+  <meta name="twitter:image" content="http://cydiainstaller.net/wp-content/uploads/2014/08/aaaaa-300x241.jpg" />
+  <meta name="twitter:url" content="http://cydiainstaller.net/about-cydia/what-is-cydia/" />
+      
+<script type="text/javascript">
+	window._zem_rp_post_id = '43';
+	window._zem_rp_thumbnails = true;
+	window._zem_rp_post_title = 'What+is+Cydia%3F';
+	window._zem_rp_post_tags = ['cydia+app', 'about+cydia', 'cydia', 'freeman', 'ipad', 'store', 'iphon', 'download', 'free', 'io', 'softwar', 'develop', 'appl', 'amp', 'alt', 'app', 'ipod'];
+	window._zem_rp_static_base_url = 'https://content.zemanta.com/static/';
+	window._zem_rp_wp_ajax_url = 'http://cydiainstaller.net/wp-admin/admin-ajax.php';
+	window._zem_rp_plugin_version = '1.14';
+	window._zem_rp_num_rel_posts = '6';
+</script>
+<link rel="stylesheet" href="http://cydiainstaller.net/wp-content/plugins/related-posts-by-zemanta/static/themes/modern.css?version=1.14" />
+
+<!-- Google Webmaster Tools plugin for WordPress -->
+<meta name="google-site-verification" content="Pec2T-iwiyOOW_q7mjha4J2P6ie-Om38vQ38448bLvc" />
+<!-- We need this for debugging -->
+<!-- Responsive 1.9.7.6 -->
+<!-- Tracking code easily added by NK Google Analytics -->
+<script type="text/javascript"> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); 
+ga('create', 'UA-55127962-1', 'cydiainstaller.net'); 
+ga('send', 'pageview'); 
+</script> 
+<meta property="og:site_name" content="Cydia Installer" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://cydiainstaller.net/about-cydia/what-is-cydia/" />
+<meta property="og:title" content="What is Cydia?" />
+<meta property="og:description" content="Cydia is a best Application Software for Apple iOS devices; iPhones, iPads and iPod Touches developed by Mr.Saurik. Cydia is not only an App, but also behave as an App Store. We can use Cydia as an alternate for Apple’s&hellip;" />
+<meta property="og:image" content="http://cydiainstaller.net/wp-content/uploads/2014/08/aaaaa-300x2411.jpg" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="241" />
+<meta property="article:published_time" content="2014-08-27T17:04:49+00:00" />
+<meta property="article:modified_time" content="2016-02-16T16:08:26+00:00" />
+<meta property="article:author" content="http://cydiainstaller.net/author/admin/" />
+<meta property="article:section" content="About Cydia" />
+<meta property="article:tag" content="cydia app" />
+
+<!-- BEGIN GADWP v4.9.6.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55127962-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+	</head>
+
+<body class="single single-post postid-43 single-format-standard">
+
+<div id="container" class="">
+
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content">&darr; Skip to Main Content</a>
+	</div><!-- .skip-container -->
+	<div id="header">
+
+		
+		
+		
+		
+		
+			<div id="logo">
+				<span class="site-name"><a href="http://cydiainstaller.net/" title="Cydia Installer" rel="home">Cydia Installer</a></span>
+				<span class="site-description">Cydia Download For iPhone, iPad, iPod : iOS 10.3.1 &#8211; 3.0</span>
+			</div><!-- end of #logo -->
+
+		
+			<div id="top-widget" class="top-widget">
+		
+		
+			<div id="text-7" class="widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- cydiains -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-4864424715679590"
+     data-ad-slot="1265792648"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div>
+		
+			</div><!-- end of #top-widget -->
+		<div class="main-nav"><ul class="menu"><li ><a href="http://cydiainstaller.net/">Home</a></li><li class="page_item page-item-5 page_item_has_children"><a href="http://cydiainstaller.net/download/" title="Cydia Download - iPhone, iPad, iPod [iOS 5 - iOS 9]">Download</a><ul class='children'><li class="page_item page-item-107"><a href="http://cydiainstaller.net/download/install-cydia-ios-7-1-to-7-1-2/" title="How to install Cydia for iOS 7.1 – 7.1.2 by Pangu jailbreak">How to install Cydia for iOS 7.1 – 7.1.2 by Pangu jailbreak</a></li><li class="page_item page-item-75"><a href="http://cydiainstaller.net/download/install-cydia-ios-7-0-to-7-0-6/" title="Install Cydia for iOS 7.0.6 - 7.0.0 devices">Install Cydia for iOS 7.0.6 &#8211; 7.0.0 devices with evasi0n7</a></li><li class="page_item page-item-99"><a href="http://cydiainstaller.net/download/install-cydia-ios-6-1-3-6-1-6/" title="Install Cydia on iOS 6.1.3 - 6.1.6 devices">How to install Cydia for iOS 6.1.3 &#8211; 6.1.6 using p0sixspwn jailbreak?</a></li><li class="page_item page-item-202"><a href="http://cydiainstaller.net/download/idevices-evasi0n-jailbreak/" title="Install Cydia for iOS 6.0 - 6.1.2 iDevices with evasi0n">Install Cydia for iOS 6.0 &#8211; 6.1.2 iDevices with evasi0n jailbreak</a></li><li class="page_item page-item-468"><a href="http://cydiainstaller.net/download/pangu8-jailbreak-1devices/" title="Pangu8 jailbreak for iOS 8.0 - 8.1devices">Pangu8 jailbreak for iOS 8.0 &#8211; 8.1devices [step guide]</a></li><li class="page_item page-item-3321"><a href="http://cydiainstaller.net/download/install-cydia-redsn0w/" title="Install Cydia iOS 5.0.0, 5.0.1, 5.1.0, 5.1.1 with Redsn0w">Install Cydia iOS 5.0.0, 5.0.1, 5.1.0, 5.1.1 with Redsn0w</a></li></ul></li><li class="page_item page-item-38"><a href="http://cydiainstaller.net/iphone/" title="Cydia installer for iPhone - Download &amp; install with jailbreak [iOS 5 - iOS 10]">Cydia iPhone</a></li><li class="page_item page-item-159"><a href="http://cydiainstaller.net/cydia-ipad/" title="Download &amp; Install Cydia on iPad &amp; iPad Mini [iOS 10 - 5.0]">Cydia iPad</a></li><li class="page_item page-item-149"><a href="http://cydiainstaller.net/cydia-for-ipod-touch/" title="Cydia for iPod Touch - Download &amp; install iOS 10 - iOS 5">Cydia iPod</a></li><li class="page_item page-item-1813 page_item_has_children"><a href="http://cydiainstaller.net/jailbreak/" title="Jailbreak iOS 10 / 9 / 8 / 7 / 6 / 5">Jailbreak</a><ul class='children'><li class="page_item page-item-3266"><a href="http://cydiainstaller.net/jailbreak/cydia-errors/" title="How to fixed Cydia Errors">Cydia Errors</a></li><li class="page_item page-item-2123"><a href="http://cydiainstaller.net/jailbreak/cydia-faq/" title="Cydia FAQ">Cydia FAQ</a></li><li class="page_item page-item-4790"><a href="http://cydiainstaller.net/jailbreak/cydia-impactor/" title="Cydia Impactor">Cydia Impactor</a></li></ul></li><li class="page_item page-item-4857 page_item_has_children"><a href="http://cydiainstaller.net/ios/" title="iOS">iOS</a><ul class='children'><li class="page_item page-item-4867"><a href="http://cydiainstaller.net/ios/cydia-ios-10/" title="Cydia iOS 10">Cydia iOS 10</a></li><li class="page_item page-item-4878"><a href="http://cydiainstaller.net/ios/cydia-ios-9/" title="Cydia iOS 9">Cydia iOS 9</a></li><li class="page_item page-item-4903"><a href="http://cydiainstaller.net/ios/cydia-ios-8/" title="Cydia iOS 8">Cydia iOS 8</a></li><li class="page_item page-item-4908"><a href="http://cydiainstaller.net/ios/cydia-ios-7/" title="Cydia iOS 7">Cydia iOS 7</a></li></ul></li><li class="page_item page-item-361"><a href="http://cydiainstaller.net/about-us-contact-us-privacy-policy/" title="About Us - Contact Us - Privacy Policy">About Us</a></li></ul>
+</div>
+		
+		
+	</div><!-- end of #header -->
+
+	<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	<div class="breadcrumb-list" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="breadcrumb" typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://cydiainstaller.net/">Home</a></span> <span class="chevron">&#8250;</span> <span class="breadcrumb" typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://cydiainstaller.net/category/about-cydia/">About Cydia</a></span> <span class="chevron">&#8250;</span> <span class="breadcrumb-current">What is Cydia?</span></div>
+	
+		
+						<div id="post-43" class="post-43 post type-post status-publish format-standard category-about-cydia tag-cydia-app">
+				
+				
+	<h1 class="entry-title post-title">What is Cydia?</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/" title="What is Cydia?" rel="bookmark"><time class="timestamp updated" datetime="2014-08-27T17:04:49+00:00">August 27, 2014</time></a><span class="byline"> by </span><span class="author "><a class="url fn n" href="http://cydiainstaller.net/author/admin/" title="View all posts by admin">admin</a></span>
+			<span class="comments-link">
+		<span class="mdash">&mdash;</span>
+			<a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comments">25 Comments &darr;</a>		</span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CydiaInsLinksNew -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4864424715679590"
+     data-ad-slot="1873275843"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<p><img class="aligncenter wp-image-429 size-medium" src="http://cydiainstaller.net/wp-content/uploads/2014/08/aaaaa-300x241.jpg" alt="" width="300" height="241" /></p>
+<p><strong>Cydia is a best Application Software for Apple iOS devices; iPhones, iPads and iPod Touches developed by Mr.Saurik. Cydia</strong> is not only an App, but also behave as an App Store. We can use Cydia as an alternate for Apple’s Official App Store. Once you install Cydia on your device, able to find and download thousands of apps through Cydia, which are not available in the official App Store. Cydia may also allow users to do things as they wish. The Apps available through Cydia bring awesome benefits and features for your iOS device. It is completely FREE for all.</p>
+<p>The developer of Cydia is <em>Jay Freeman, </em>well known as<strong><em> Saurik </em></strong>and his company SaurikIT. Cydia is greatest invent for the Apples grate products. Simply you cannot ignore this product because; it has ability to wonder you.</p>
+<p><strong>Why Cydia? &#8211; Benefits</strong></p>
+<p>Company Apple, already has provided idevice users to their own App Store. By the each &amp; every idevice, user can download app from it.  Then, why you need Cydia? Outside the Apple App Store there are so many awesome apps by the word wide developers for iOS devices. But, Apple strictly prohibited these third-party software download for iOS devices. Beside, you can&#8217;t customize &amp; control your device using with provided apps by the Apple App Store. Apple doesn&#8217;t allow users, to do things they like with iOS device, course, and obstruct your FREEDOM</p>
+<p>Now the reason is clear, why you need Cydia as a alternations for Apple App Store. Unlike Apple, Cydia gives you to chance for make the idevice awesome in your way.  It allows you to find, download &amp; install more featured &amp; powerful software for iPhone, iPad &amp; iPod Touch device. There are in themes, tweaks, extensions, add-ons and anymore to download &amp; install in Cydia App Store. Cydia apps, which are not only for customize but also add new features to your device ever. You don&#8217;t worry about downloaded apps from Cydia app store, Cydia guarantee for you its secure.</p>
+<p>Cydia gives more video, gaming and personalization options for you. It is the only way to get most popular apps like “Winterboard”,” Cycorder”, “MxTube”, “ MyWi”, “PDANet”, “Intelliscreen”. Course Cydia, will increas the resale value of your iPhone, iPad or iPod Touch.</p>
+<p>Follow us and take Cydia for your devices within few minutes. If any matter to install Cydia for your Apple devices, Please comments to us.</p>
+
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script><!-- cydiainsAu --> <ins class="adsbygoogle" style="display: block;" data-ad-client="ca-pub-4864424715679590" data-ad-slot="9584463849" data-ad-format="auto"> </ins><script>// <![CDATA[
+(adsbygoogle = window.adsbygoogle || []).push({});
+// ]]&gt;</script>
+</div>
+<p><strong>Cydia FAQ</strong></p>
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- cyinsLargeRect -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4864424715679590"
+     data-ad-slot="6222355448"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<ul>
+<li>How can I Cydia download &amp; install?
+<ul>
+<li>You can&#8217;t download Cydia directly for your iOS device. It is not in a web site for download. Using a jailbreak tool, can install Cydia. When you jailbreak the device, Cydia will automatically download &amp; install on it. Now you can <a href="http://cydiainstaller.net/download/">Cydia download</a> from this link</li>
+</ul>
+</li>
+<li>If it is necessary <a href="http://cydiainstaller.net/about-cydia/jailbreaking-for-cydia/">jailbreak for Cydia?</a>
+<ul>
+<li>Yes, you must. There is no way to get Cydia without jailbreak. If someone says No, it is fake: not real Cydia.</li>
+</ul>
+</li>
+<li>Can I get back after Cydia?
+<ul>
+<li>Yes, it is completely reversible with System Restore. If you thought, that&#8217;s enough with Cydia, simply do System Restore. Then you will stay on before Cydia position.</li>
+</ul>
+</li>
+<li>Still can I use Official Apples App Store?
+<ul>
+<li>Cydia installed devices can also still download apps normally from the Official App Store.</li>
+</ul>
+</li>
+<li>If it is something wrong in my device cause of Cydia?
+<ul>
+<li>No really no. Cydia is world trusted software. There are about 10 millions of users all around the world.</li>
+</ul>
+</li>
+</ul>
+<p style="padding-left: 90px;">Recommend for you ;</p>
+<p style="padding-left: 120px;"><a title="Install Cydia for iOS 6.0 – 6.1.2 iDevices with evasi0n jailbreak" href="http://cydiainstaller.net/download/idevices-evasi0n-jailbreak/" target="_blank">Cydia download &amp; install for iOS 6.0 &#8211; 6.1.2 iPhone, iPad &amp; iPod Touch</a></p>
+<p style="padding-left: 120px;"><a title="Install Cydia on iOS 6.1.3 – 6.1.6 devices" href="http://cydiainstaller.net/download/install-cydia-ios-6-1-3-6-1-6/" target="_blank">Cydia download &amp; install for iOS 6.1.3 &#8211; 6.1.6 iPhone, iPad &amp; iPod Touch</a></p>
+<p style="padding-left: 120px;"><a title="Install Cydia for iOS 7.0.6 – 7.0.0 devices with evasi0n7" href="http://cydiainstaller.net/download/install-cydia-ios-7-0-to-7-0-6/" target="_blank">Cydia download &amp; install for iOS 7.0.x iPhone, iPad &amp; iPod Touch</a></p>
+<p style="padding-left: 120px;"><a title="Install Cydia for iOS 7.1 – 7.1.2 devices Pangu jailbreak" href="http://cydiainstaller.net/download/install-cydia-ios-7-1-to-7-1-2/" target="_blank">Cydia download &amp; install for iOS 7.1.x iPhone, iPad &amp; iPod Touch</a></p>
+<p style="padding-left: 120px;"><a title="Download TaiG / Pangu8 for Cydia iOS 8 – 8.1 jailbreak" href="http://cydiainstaller.net/cydia-ios-8-2/download-taig-pangu8-jailbreak/" target="_blank">Cydia download &amp; install for iOS 8.0 &#8211; 8.1 iPhone, iPad &amp; iPod Touch</a></p>
+<p style="padding-left: 120px;"><a title="How to install Cydia for iOS 8.0 – 8.1.2 with TaiG jailbreak [Windows]" href="http://cydiainstaller.net/taig-jailbreak/install-jailbreak-windows/" target="_blank">Cydia download &amp; install for iOS 8.1.1 &#8211; 8.1.2 iPhone, iPad &amp; iPod Touch </a></p>
+<p>&nbsp;</p>
+
+<div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div>
+<div class="zem_rp_wrap zem_rp_th_modern" id="zem_rp_first"><div class="zem_rp_content"><h3 class="related_post_title">More Related News</h3><ul class="related_post zem_rp"><li data-position="0" data-poid="in-405" data-post-type="none"><a href="http://cydiainstaller.net/about-cydia/cydia-for-android/" class="zem_rp_thumbnail"><img src="http://cydiainstaller.net/wp-content/uploads/2014/10/aqagalaxys5-htcone-625x3151-150x150.jpg" alt="Cydia For Android" width="150" height="150"  /></a><a href="http://cydiainstaller.net/about-cydia/cydia-for-android/" class="zem_rp_title">Cydia For Android</a></li><li data-position="1" data-poid="in-56" data-post-type="none"><a href="http://cydiainstaller.net/about-cydia/jailbreaking-for-cydia/" class="zem_rp_thumbnail"><img src="http://cydiainstaller.net/wp-content/plugins/related-posts-by-zemanta/static/thumbs/1.jpg" alt="jailbreaking for Cydia" width="150" height="150"  /></a><a href="http://cydiainstaller.net/about-cydia/jailbreaking-for-cydia/" class="zem_rp_title">jailbreaking for Cydia</a></li><li data-position="2" data-poid="in-4291" data-post-type="none"><a href="http://cydiainstaller.net/cydia-alternative/download-jailbreak-apps-tweaks/" class="zem_rp_thumbnail"><img src="http://cydiainstaller.net/wp-content/uploads/2016/11/IMG_2534-150x150.jpg" alt="Cydia iOS 10 alternative &#8211; Download best jailbreak apps &#038; tweaks Free" width="150" height="150"  /></a><a href="http://cydiainstaller.net/cydia-alternative/download-jailbreak-apps-tweaks/" class="zem_rp_title">Cydia iOS 10 alternative &#8211; Download best jailbreak apps &#038; tweaks Free</a></li><li data-position="3" data-poid="in-4087" data-post-type="none"><a href="http://cydiainstaller.net/cydia-apps/tweaks-should-install/" class="zem_rp_thumbnail"><img src="http://cydiainstaller.net/wp-content/uploads/2016/09/Untitled-1-150x150.jpg" alt="Best Cydia apps &#038; tweaks you should install with iOS 9.3.3 jailbreak" width="150" height="150"  /></a><a href="http://cydiainstaller.net/cydia-apps/tweaks-should-install/" class="zem_rp_title">Best Cydia apps &#038; tweaks you should install with iOS 9.3.3 jailbreak</a></li><li data-position="4" data-poid="in-756" data-post-type="none"><a href="http://cydiainstaller.net/cydia-installer/cydia-fixes-released/" class="zem_rp_thumbnail"><img src="http://cydiainstaller.net/wp-content/uploads/2014/11/Cydia-up-new-11-150x150.jpg" alt="Cydia installer 1.1.16 with bug fixes on iOS 8 released.." width="150" height="150"  /></a><a href="http://cydiainstaller.net/cydia-installer/cydia-fixes-released/" class="zem_rp_title">Cydia installer 1.1.16 with bug fixes on iOS 8 released..</a></li><li data-position="5" data-poid="in-3166" data-post-type="none"><a href="http://cydiainstaller.net/cydia-apps/ios9-compatible-apps/" class="zem_rp_thumbnail"><img src="http://cydiainstaller.net/wp-content/uploads/2015/10/Untitled-21-150x150.jpg" alt="Best Cydia apps &#038; tweaks after jailbreak your iDevice [iOS 9.0 &#8211; 9.0.2]" width="150" height="150"  /></a><a href="http://cydiainstaller.net/cydia-apps/ios9-compatible-apps/" class="zem_rp_title">Best Cydia apps &#038; tweaks after jailbreak your iDevice [iOS 9.0 &#8211; 9.0.2]</a></li></ul></div></div>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="http://cydiainstaller.net/about-cydia/what-is-cydia/" data-a2a-title="What is Cydia?"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fcydiainstaller.net%2Fabout-cydia%2Fwhat-is-cydia%2F&amp;linkname=What%20is%20Cydia%3F" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fcydiainstaller.net%2Fabout-cydia%2Fwhat-is-cydia%2F&amp;linkname=What%20is%20Cydia%3F" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Fcydiainstaller.net%2Fabout-cydia%2Fwhat-is-cydia%2F&amp;linkname=What%20is%20Cydia%3F" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fcydiainstaller.net%2Fabout-cydia%2Fwhat-is-cydia%2F&amp;linkname=What%20is%20Cydia%3F" title="LinkedIn" rel="nofollow" target="_blank"></a><a class="a2a_button_stumbleupon" href="http://www.addtoany.com/add_to/stumbleupon?linkurl=http%3A%2F%2Fcydiainstaller.net%2Fabout-cydia%2Fwhat-is-cydia%2F&amp;linkname=What%20is%20Cydia%3F" title="StumbleUpon" rel="nofollow" target="_blank"></a><a class="a2a_button_pinterest_pin addtoany_special_service" data-pin-config="none" data-url="http://cydiainstaller.net/about-cydia/what-is-cydia/"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"></a></div></div>
+					
+									</div><!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">&#8249; <a href="http://cydiainstaller.net/about-cydia/jailbreaking-for-cydia/" rel="prev">jailbreaking for Cydia</a></div>
+					<div class="next"><a href="http://cydiainstaller.net/ios-8-jailbreak/devices-with-cydia/" rel="next">iOS 8 devices with Cydia</a> &#8250;</div>
+				</div><!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+		Posted in <a href="http://cydiainstaller.net/category/about-cydia/">About Cydia</a>		Tagged with: <a href="http://cydiainstaller.net/tag/cydia-app/" rel="tag">cydia app</a><br />	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-43 -->
+			
+						
+	<h6 id="comments">
+		25 comments on &ldquo;<span>What is Cydia?</span>&rdquo;	</h6>
+
+	
+	<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="comment-460">
+				<div id="div-comment-460" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://2.gravatar.com/avatar/51a795043e05e09a1118b55bde78ece1?s=60&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/51a795043e05e09a1118b55bde78ece1?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Soud</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-460">
+			January 24, 2015 at 8:44 am</a>		</div>
+
+		<p>Ok ok</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=460#respond' onclick='return addComment.moveForm( "div-comment-460", "460", "respond", "43" )' aria-label='Reply to Soud'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-462">
+				<div id="div-comment-462" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-462">
+			May 15, 2015 at 6:29 pm</a>		</div>
+
+		<p>Pls follow this <a href="http://cydiainstaller.net/about-cydia/what-is-cydia/" rel="nofollow">http://cydiainstaller.net/about-cydia/what-is-cydia/</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=462#respond' onclick='return addComment.moveForm( "div-comment-462", "462", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-1814">
+				<div id="div-comment-1814" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://0.gravatar.com/avatar/0876afe7fe5337244efe22c6b7bbc64d?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0876afe7fe5337244efe22c6b7bbc64d?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Suilential</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-1814">
+			July 27, 2015 at 7:27 am</a>		</div>
+
+		<p>I don&#8217;t know how to use Cydia</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=1814#respond' onclick='return addComment.moveForm( "div-comment-1814", "1814", "respond", "43" )' aria-label='Reply to Suilential'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-2337">
+				<div id="div-comment-2337" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7fecf84dc6d6587a0b1acab9d7f63215?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7fecf84dc6d6587a0b1acab9d7f63215?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">JosearmandO18</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-2337">
+			September 17, 2015 at 5:59 am</a>		</div>
+
+		<p>Es bien</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=2337#respond' onclick='return addComment.moveForm( "div-comment-2337", "2337", "respond", "43" )' aria-label='Reply to JosearmandO18'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-2591">
+				<div id="div-comment-2591" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/480456f73d7a58718d94a580ed769411?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/480456f73d7a58718d94a580ed769411?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Nufail Ismath</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-2591">
+			October 11, 2015 at 5:00 am</a>		</div>
+
+		<p>How can I jailbreak my iPad 1 iOS 5.1.1</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=2591#respond' onclick='return addComment.moveForm( "div-comment-2591", "2591", "respond", "43" )' aria-label='Reply to Nufail Ismath'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-2592">
+				<div id="div-comment-2592" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-2592">
+			October 11, 2015 at 5:55 am</a>		</div>
+
+		<p>Use Redsn0w for jailbreak your device. Follow instructions properly. This is official website &#8211; <a href="http://blog.iphone-dev.org/" rel="nofollow">http://blog.iphone-dev.org/</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=2592#respond' onclick='return addComment.moveForm( "div-comment-2592", "2592", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-3178">
+				<div id="div-comment-3178" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/a30b3f0d17d91d7e4e1830ebcb88ca1f?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a30b3f0d17d91d7e4e1830ebcb88ca1f?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Hamad</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-3178">
+			December 22, 2015 at 11:31 am</a>		</div>
+
+		<p>I went Sydia</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=3178#respond' onclick='return addComment.moveForm( "div-comment-3178", "3178", "respond", "43" )' aria-label='Reply to Hamad'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-3181">
+				<div id="div-comment-3181" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-3181">
+			December 22, 2015 at 4:20 pm</a>		</div>
+
+		<p>Cydia app is free for you. Jailbreak your device and install Cydia properly. This application unable to install without jailbreak</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=3181#respond' onclick='return addComment.moveForm( "div-comment-3181", "3181", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-3638">
+				<div id="div-comment-3638" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://0.gravatar.com/avatar/ca5a7a1afa217c6d845e24520d6bbaa9?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/ca5a7a1afa217c6d845e24520d6bbaa9?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Juan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-3638">
+			February 10, 2016 at 8:11 pm</a>		</div>
+
+		<p>How do u do it</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=3638#respond' onclick='return addComment.moveForm( "div-comment-3638", "3638", "respond", "43" )' aria-label='Reply to Juan'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-3642">
+				<div id="div-comment-3642" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-3642">
+			February 11, 2016 at 2:36 am</a>		</div>
+
+		<p>Follow.. <a href="http://cydiainstaller.net/download/" rel="nofollow">http://cydiainstaller.net/download/</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=3642#respond' onclick='return addComment.moveForm( "div-comment-3642", "3642", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-3699">
+				<div id="div-comment-3699" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://0.gravatar.com/avatar/3d747ca20d300caccf820bf772f40232?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3d747ca20d300caccf820bf772f40232?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Richard</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-3699">
+			February 19, 2016 at 11:46 pm</a>		</div>
+
+		<p>I want Cydia</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=3699#respond' onclick='return addComment.moveForm( "div-comment-3699", "3699", "respond", "43" )' aria-label='Reply to Richard'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-3700">
+				<div id="div-comment-3700" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-3700">
+			February 20, 2016 at 2:46 am</a>		</div>
+
+		<p>Jailbreak and get it&#8230; Pls follow instructions</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=3700#respond' onclick='return addComment.moveForm( "div-comment-3700", "3700", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-4106">
+				<div id="div-comment-4106" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://2.gravatar.com/avatar/b3247f63c26b0546370fcc8325b24a14?s=60&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b3247f63c26b0546370fcc8325b24a14?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Jhay</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-4106">
+			April 22, 2016 at 4:06 pm</a>		</div>
+
+		<p>Please make my iPad iOS 9.3.1 has jailbreak. I want to install apps from Cydia</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=4106#respond' onclick='return addComment.moveForm( "div-comment-4106", "4106", "respond", "43" )' aria-label='Reply to Jhay'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-4108">
+				<div id="div-comment-4108" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-4108">
+			April 22, 2016 at 11:46 pm</a>		</div>
+
+		<p>Please follow our guide &#8211; <a href="http://cydiainstaller.net/ipad/" rel="nofollow">http://cydiainstaller.net/ipad/</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=4108#respond' onclick='return addComment.moveForm( "div-comment-4108", "4108", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-4444">
+				<div id="div-comment-4444" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://0.gravatar.com/avatar/3747eda3bc437d31bc550ffdeb903cf6?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3747eda3bc437d31bc550ffdeb903cf6?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Crisia</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-4444">
+			June 8, 2016 at 12:13 am</a>		</div>
+
+		<p>Can&#8217;t dowload piano and slither</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=4444#respond' onclick='return addComment.moveForm( "div-comment-4444", "4444", "respond", "43" )' aria-label='Reply to Crisia'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-5511">
+				<div id="div-comment-5511" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://2.gravatar.com/avatar/b92a8498e906686c5627087f5a18c710?s=60&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b92a8498e906686c5627087f5a18c710?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tree</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5511">
+			October 1, 2016 at 9:05 pm</a>		</div>
+
+		<p>Good App👍👍👍</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5511#respond' onclick='return addComment.moveForm( "div-comment-5511", "5511", "respond", "43" )' aria-label='Reply to Tree'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-5525">
+				<div id="div-comment-5525" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://2.gravatar.com/avatar/b92a8498e906686c5627087f5a18c710?s=60&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b92a8498e906686c5627087f5a18c710?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Tree</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5525">
+			October 2, 2016 at 2:00 am</a>		</div>
+
+		<p>😂😂😂</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5525#respond' onclick='return addComment.moveForm( "div-comment-5525", "5525", "respond", "43" )' aria-label='Reply to Tree'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-5575">
+				<div id="div-comment-5575" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/da6224c32de9d89dd1681a04962aa079?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/da6224c32de9d89dd1681a04962aa079?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Aran</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5575">
+			October 7, 2016 at 10:31 pm</a>		</div>
+
+		<p>Hello cydia for 9.3.5??if not so when??</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5575#respond' onclick='return addComment.moveForm( "div-comment-5575", "5575", "respond", "43" )' aria-label='Reply to Aran'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-5581">
+				<div id="div-comment-5581" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5581">
+			October 8, 2016 at 6:41 am</a>		</div>
+
+		<p>Cydia not compatible with iOS 9.3.5 now. Cannot mention release date.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5581#respond' onclick='return addComment.moveForm( "div-comment-5581", "5581", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-5678">
+				<div id="div-comment-5678" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/1f97581d893e7a1ff878416005b79ae7?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1f97581d893e7a1ff878416005b79ae7?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Aslam taheri</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5678">
+			October 22, 2016 at 8:15 am</a>		</div>
+
+		<p>How I download the cydia<br />
+Please help me??</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5678#respond' onclick='return addComment.moveForm( "div-comment-5678", "5678", "respond", "43" )' aria-label='Reply to Aslam taheri'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-5679">
+				<div id="div-comment-5679" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5679">
+			October 22, 2016 at 6:08 pm</a>		</div>
+
+		<p>Cydia download is depend on your iOS version. Please follow tutorial guides we have given under your iOS version. Better to install cydiainstaller.mobi , this application will guide you to install Cydia app</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5679#respond' onclick='return addComment.moveForm( "div-comment-5679", "5679", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-5697">
+				<div id="div-comment-5697" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://2.gravatar.com/avatar/2741dc94d57dea0c4f8a371f5c5471e2?s=60&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2741dc94d57dea0c4f8a371f5c5471e2?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Ai Am</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5697">
+			October 24, 2016 at 8:37 am</a>		</div>
+
+		<p>Download</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5697#respond' onclick='return addComment.moveForm( "div-comment-5697", "5697", "respond", "43" )' aria-label='Reply to Ai Am'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-5945">
+				<div id="div-comment-5945" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://0.gravatar.com/avatar/f65595f5a18cdbce13efc1297e45237c?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f65595f5a18cdbce13efc1297e45237c?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Puran Kaushal</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-5945">
+			December 6, 2016 at 3:25 pm</a>		</div>
+
+		<p>follow my blog also here <a href="http://cydiahome.blogspot.com/" rel="nofollow">http://cydiahome.blogspot.com/</a></p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=5945#respond' onclick='return addComment.moveForm( "div-comment-5945", "5945", "respond", "43" )' aria-label='Reply to Puran Kaushal'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1 parent" id="comment-6227">
+				<div id="div-comment-6227" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://2.gravatar.com/avatar/8c0874931024b377dbe3011db608840b?s=60&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/8c0874931024b377dbe3011db608840b?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">Suntaree</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-6227">
+			January 30, 2017 at 1:47 am</a>		</div>
+
+		<p>install cydia 10.2.1</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=6227#respond' onclick='return addComment.moveForm( "div-comment-6227", "6227", "respond", "43" )' aria-label='Reply to Suntaree'>Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-6229">
+				<div id="div-comment-6229" class="comment-body">
+				<div class="comment-author ">
+			<img alt='' src='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=60&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7ff72cada116dcf71bb1e847be08ffaa?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />			<cite class="fn">admin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://cydiainstaller.net/about-cydia/what-is-cydia/#comment-6229">
+			January 30, 2017 at 4:36 am</a>		</div>
+
+		<p>Not compatible. Downgrade to iOS 10.2 quickly as possible &#038; install with iOS 10.2 Yalu jailbreak</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://cydiainstaller.net/about-cydia/what-is-cydia/?replytocom=6229#respond' onclick='return addComment.moveForm( "div-comment-6229", "6229", "respond", "43" )' aria-label='Reply to admin'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	</ol>
+
+	
+
+
+
+							<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/about-cydia/what-is-cydia/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://cydiainstaller.net/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" /></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8"  aria-required="true" required="required"></textarea></p>						
+						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='43' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>					</form>
+							</div><!-- #respond -->
+			
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="search-2" class="widget-wrapper widget_search"><form method="get" id="searchform" action="http://cydiainstaller.net/">
+	<label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" class="field" name="s" id="s" placeholder="search here &hellip;" />
+	<input type="submit" class="submit" name="submit" id="searchsubmit" value="Go" />
+</form></div><div id="text-15" class="widget-wrapper widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CydiaInsLinksNew -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4864424715679590"
+     data-ad-slot="1873275843"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div><div id="wp_my_plugin-2" class="widget-wrapper widget_wp_my_plugin"><div class="widget-text wp_widget_plugin_box"><div class="widget-title"><h3>Like Us on Facebook</h3></div><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script><div class="fb-page" data-href="https://www.facebook.com/cydiaInstaller1/" data-width="300" data-height="" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div></div></div><div id="text-10" class="widget-wrapper widget_text">			<div class="textwidget"><a href="https://twitter.com/Cydia_Installer" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @Cydia_Installer</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+		</div><div id="google-badge-box-2" class="widget-wrapper mts_googleplus"><div class="widget-title"><h3>Find us on Google +</h3></div>			<script src="https://apis.google.com/js/platform.js" async defer></script>
+			<div class="g-page" data-width="260" data-href="https://plus.google.com/u/0/104353401679803623392" data-layout="portrait" data-theme="light" data-rel="publisher" data-showtagline="true" data-showcoverphoto="true"></div>
+		</div><div id="text-19" class="widget-wrapper widget_text">			<div class="textwidget"><a href="http://jailbreakinstaller.com/jailbreakchecker/jbcheck.htm" rel=’nofollow’ >
+<img src="http://cydiainstaller.net/images/findjailbreak.png" alt="Find Your Jailbreak" />
+</a></div>
+		</div><div id="text-11" class="widget-wrapper widget_text">			<div class="textwidget"><a href="http://cydiainstaller.net/iCydia.mobileconfig" rel=’nofollow’ >
+<img src="http://cydiainstaller.net/images/iCydia.png" alt="iCydia App" />
+</a></div>
+		</div><div id="wdg_specialrecentpostsfree-2" class="widget-wrapper widget_specialrecentpostsFree"><h3 class="widget-title srp-widget-title">Recent Posts</h3><!-- BEGIN Special Recent Posts FREE Edition v2.0.4 --><div class="srp-widget-container"><div id="wdg_specialrecentpostsfree-2-srp-singlepost-1" class="srp-widget-singlepost"><div class="srp-post-content-container"><div class="srp-thumbnail-box"><a class="srp-post-thumbnail-link" href="http://cydiainstaller.net/online-cydia-installer/installer-running-iphoneipadipod/" title="Online Cydia Installer for iOS 10.3.1 to iOS 3 Running iPhone,iPad,iPod Touch"><img src="http://cydiainstaller.net/wp-content/plugins/special-recent-posts/cache/srpthumb-p5092-100x100-no.jpg" class="srp-post-thumbnail" alt="Online Cydia Installer for iOS 10.3.1 to iOS 3 Running iPhone,iPad,iPod Touch" /></a></div><div class="srp-content-box"><h6 class="srp-post-title"><a class="srp-post-title-link" href="http://cydiainstaller.net/online-cydia-installer/installer-running-iphoneipadipod/" title="Online Cydia Installer for iOS 10.3.1 to iOS 3 Running iPhone,iPad,iPod Touch">Online Cydia Installer for iOS 10.3.1 to iOS 3 Running iPhone,iPad,iPod Touch</a></h6><p class="srp-post-date">May 6th, 2017</p></div></div></div><div id="wdg_specialrecentpostsfree-2-srp-singlepost-2" class="srp-widget-singlepost"><div class="srp-post-content-container"><div class="srp-thumbnail-box"><a class="srp-post-thumbnail-link" href="http://cydiainstaller.net/cydia-ios-10-3-1/download-cydia-idevices/" title="Can Download Cydia for iOS 10.3.2, 10.3.1,10.3,10.2.1 iDevices"><img src="http://cydiainstaller.net/wp-content/plugins/special-recent-posts/cache/srpthumb-p5084-100x100-no.png" class="srp-post-thumbnail" alt="Can Download Cydia for iOS 10.3.2, 10.3.1,10.3,10.2.1 iDevices" /></a></div><div class="srp-content-box"><h6 class="srp-post-title"><a class="srp-post-title-link" href="http://cydiainstaller.net/cydia-ios-10-3-1/download-cydia-idevices/" title="Can Download Cydia for iOS 10.3.2, 10.3.1,10.3,10.2.1 iDevices">Can Download Cydia for iOS 10.3.2, 10.3.1,10.3,10.2.1 iDevices</a></h6><p class="srp-post-date">April 29th, 2017</p></div></div></div><div id="wdg_specialrecentpostsfree-2-srp-singlepost-3" class="srp-widget-singlepost"><div class="srp-post-content-container"><div class="srp-thumbnail-box"><a class="srp-post-thumbnail-link" href="http://cydiainstaller.net/ios-10-3-1-jailbreak/pangu-ios-10-3-1-jailbreak/" title="Pangu Jailbreak for iOS 10.3 / 10.3.1 Releases Soon - Prepare Your Device Now !"><img src="http://cydiainstaller.net/wp-content/plugins/special-recent-posts/cache/srpthumb-p5068-100x100-no.jpg" class="srp-post-thumbnail" alt="Pangu Jailbreak for iOS 10.3 / 10.3.1 Releases Soon - Prepare Your Device Now !" /></a></div><div class="srp-content-box"><h6 class="srp-post-title"><a class="srp-post-title-link" href="http://cydiainstaller.net/ios-10-3-1-jailbreak/pangu-ios-10-3-1-jailbreak/" title="Pangu Jailbreak for iOS 10.3 / 10.3.1 Releases Soon - Prepare Your Device Now !">Pangu Jailbreak for iOS 10.3 / 10.3.1 Releases Soon - Prepare Your Device Now !</a></h6><p class="srp-post-date">April 26th, 2017</p></div></div></div><div id="wdg_specialrecentpostsfree-2-srp-singlepost-4" class="srp-widget-singlepost"><div class="srp-post-content-container"><div class="srp-thumbnail-box"><a class="srp-post-thumbnail-link" href="http://cydiainstaller.net/yalu-jailbreak/download-yalu-modified-versions/" title="Yalu Jailbreak Modified Versions - Yalu Dark, Absinthe, Yalu103 Download"><img src="http://cydiainstaller.net/wp-content/plugins/special-recent-posts/cache/srpthumb-p5035-100x100-no.jpg" class="srp-post-thumbnail" alt="Yalu Jailbreak Modified Versions - Yalu Dark, Absinthe, Yalu103 Download" /></a></div><div class="srp-content-box"><h6 class="srp-post-title"><a class="srp-post-title-link" href="http://cydiainstaller.net/yalu-jailbreak/download-yalu-modified-versions/" title="Yalu Jailbreak Modified Versions - Yalu Dark, Absinthe, Yalu103 Download">Yalu Jailbreak Modified Versions - Yalu Dark, Absinthe, Yalu103 Download</a></h6><p class="srp-post-date">April 24th, 2017</p></div></div></div><div id="wdg_specialrecentpostsfree-2-srp-singlepost-5" class="srp-widget-singlepost"><div class="srp-post-content-container"><div class="srp-thumbnail-box"><a class="srp-post-thumbnail-link" href="http://cydiainstaller.net/cydia-download/download-without-jailbreak/" title="Download Cydia Any Device without Jailbreak"><img src="http://cydiainstaller.net/wp-content/plugins/special-recent-posts/cache/srpthumb-p5045-100x100-no.png" class="srp-post-thumbnail" alt="Download Cydia Any Device without Jailbreak" /></a></div><div class="srp-content-box"><h6 class="srp-post-title"><a class="srp-post-title-link" href="http://cydiainstaller.net/cydia-download/download-without-jailbreak/" title="Download Cydia Any Device without Jailbreak">Download Cydia Any Device without Jailbreak</a></h6><p class="srp-post-date">April 23rd, 2017</p></div></div></div></div><!-- END Special Recent Posts FREE Edition v2.0.4 --></div><div id="recent-comments-2" class="widget-wrapper widget_recent_comments"><div class="widget-title"><h3>Recent Comments</h3></div><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">admin</span> on <a href="http://cydiainstaller.net/cydia-ios-10-2-1/jailbreak-review-2/#comment-6628">Download Cydia for iOS 10.2.1 &#8211; Jailbreak Review</a></li><li class="recentcomments"><span class="comment-author-link">Jo blumm</span> on <a href="http://cydiainstaller.net/cydia-ios-10-2-1/jailbreak-review-2/#comment-6626">Download Cydia for iOS 10.2.1 &#8211; Jailbreak Review</a></li><li class="recentcomments"><span class="comment-author-link">admin</span> on <a href="http://cydiainstaller.net/cydia-ios-10-3-1/jailbreak-status-update-10-3-1/#comment-6625">Cydia for iOS 10.3.1 &#8211; jailbreak Status Update</a></li><li class="recentcomments"><span class="comment-author-link">عازفة الصمت</span> on <a href="http://cydiainstaller.net/cydia-ios-10-3-1/jailbreak-status-update-10-3-1/#comment-6624">Cydia for iOS 10.3.1 &#8211; jailbreak Status Update</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://homebroadband' rel='external nofollow' class='url'>asmaa</a></span> on <a href="http://cydiainstaller.net/cydia-ios-10-3-1/jailbreak-status-update-10-3-1/#comment-6622">Cydia for iOS 10.3.1 &#8211; jailbreak Status Update</a></li></ul></div><div id="archives-2" class="widget-wrapper widget_archive"><div class="widget-title"><h3>Archives</h3></div>		<ul>
+	<li><a href='http://cydiainstaller.net/2017/05/'>May 2017</a></li>
+	<li><a href='http://cydiainstaller.net/2017/04/'>April 2017</a></li>
+	<li><a href='http://cydiainstaller.net/2017/03/'>March 2017</a></li>
+	<li><a href='http://cydiainstaller.net/2017/02/'>February 2017</a></li>
+	<li><a href='http://cydiainstaller.net/2017/01/'>January 2017</a></li>
+	<li><a href='http://cydiainstaller.net/2016/12/'>December 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/11/'>November 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/10/'>October 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/09/'>September 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/08/'>August 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/07/'>July 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/06/'>June 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/05/'>May 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/04/'>April 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/03/'>March 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/02/'>February 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2016/01/'>January 2016</a></li>
+	<li><a href='http://cydiainstaller.net/2015/12/'>December 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/11/'>November 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/10/'>October 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/09/'>September 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/08/'>August 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/07/'>July 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/06/'>June 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/05/'>May 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/04/'>April 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/03/'>March 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/02/'>February 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2015/01/'>January 2015</a></li>
+	<li><a href='http://cydiainstaller.net/2014/12/'>December 2014</a></li>
+	<li><a href='http://cydiainstaller.net/2014/11/'>November 2014</a></li>
+	<li><a href='http://cydiainstaller.net/2014/10/'>October 2014</a></li>
+	<li><a href='http://cydiainstaller.net/2014/09/'>September 2014</a></li>
+	<li><a href='http://cydiainstaller.net/2014/08/'>August 2014</a></li>
+		</ul>
+</div><div id="categories-2" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-29"><a href="http://cydiainstaller.net/category/about-cydia/" >About Cydia</a>
+</li>
+	<li class="cat-item cat-item-80"><a href="http://cydiainstaller.net/category/apple-tv-3-jailbreak/" >Apple TV 3 Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-371"><a href="http://cydiainstaller.net/category/apple-tv-jailbreak/" >Apple TV Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-115"><a href="http://cydiainstaller.net/category/apple-watch-jailbreak/" >Apple Watch Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-392"><a href="http://cydiainstaller.net/category/cydia-alternative/" >Cydia alternative</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://cydiainstaller.net/category/cydia-apps/" >Cydia apps</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="http://cydiainstaller.net/category/cydia-download/" >Cydia Download</a>
+</li>
+	<li class="cat-item cat-item-511"><a href="http://cydiainstaller.net/category/cydia-errors/" >Cydia Errors</a>
+</li>
+	<li class="cat-item cat-item-108"><a href="http://cydiainstaller.net/category/cydia-for-android-2/" >Cydia for Android</a>
+</li>
+	<li class="cat-item cat-item-180"><a href="http://cydiainstaller.net/category/cydia-for-ipad/" >cydia for iPad</a>
+</li>
+	<li class="cat-item cat-item-161"><a href="http://cydiainstaller.net/category/cydia-for-iphone/" >cydia for iphone</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://cydiainstaller.net/category/cydia-for-iwatch/" >Cydia for iWatch</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="http://cydiainstaller.net/category/cydia-free/" >Cydia Free</a>
+</li>
+	<li class="cat-item cat-item-590"><a href="http://cydiainstaller.net/category/cydia-home-depot/" >Cydia Home Depot</a>
+</li>
+	<li class="cat-item cat-item-468"><a href="http://cydiainstaller.net/category/cydia-impactor/" >Cydia Impactor</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://cydiainstaller.net/category/cydia-installer/" >Cydia installer</a>
+</li>
+	<li class="cat-item cat-item-399"><a href="http://cydiainstaller.net/category/cydia-ios-10/" >Cydia iOS 10</a>
+</li>
+	<li class="cat-item cat-item-475"><a href="http://cydiainstaller.net/category/cydia-ios-10-0-1/" >Cydia iOS 10.0.1</a>
+</li>
+	<li class="cat-item cat-item-501"><a href="http://cydiainstaller.net/category/cydia-ios-10-1/" >Cydia iOS 10.1</a>
+</li>
+	<li class="cat-item cat-item-502"><a href="http://cydiainstaller.net/category/cydia-ios-10-1-1/" >Cydia iOS 10.1.1</a>
+</li>
+	<li class="cat-item cat-item-509"><a href="http://cydiainstaller.net/category/cydia-ios-10-2/" >Cydia iOS 10.2</a>
+</li>
+	<li class="cat-item cat-item-542"><a href="http://cydiainstaller.net/category/cydia-ios-10-2-1/" >Cydia iOS 10.2.1</a>
+</li>
+	<li class="cat-item cat-item-564"><a href="http://cydiainstaller.net/category/cydia-ios-10-3/" >Cydia iOS 10.3</a>
+</li>
+	<li class="cat-item cat-item-599"><a href="http://cydiainstaller.net/category/cydia-ios-10-3-1/" >cydia ios 10.3.1</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://cydiainstaller.net/category/cydia-ios-7-2/" >Cydia iOS 7</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://cydiainstaller.net/category/cydia-ios-8-2/" >Cydia iOS 8</a>
+</li>
+	<li class="cat-item cat-item-252"><a href="http://cydiainstaller.net/category/cydia-ios-8-3-2/" >Cydia iOS 8.3</a>
+</li>
+	<li class="cat-item cat-item-263"><a href="http://cydiainstaller.net/category/cydia-ios-8-4-2/" >Cydia iOS 8.4</a>
+</li>
+	<li class="cat-item cat-item-148"><a href="http://cydiainstaller.net/category/cydia-ios-9/" >Cydia iOS 9</a>
+</li>
+	<li class="cat-item cat-item-377"><a href="http://cydiainstaller.net/category/cydia-ios-9-3/" >Cydia iOS 9.3</a>
+</li>
+	<li class="cat-item cat-item-379"><a href="http://cydiainstaller.net/category/cydia-ios-9-3-1/" >Cydia iOS 9.3.1</a>
+</li>
+	<li class="cat-item cat-item-421"><a href="http://cydiainstaller.net/category/cydia-ios-9-3-3/" >Cydia ios 9.3.3</a>
+</li>
+	<li class="cat-item cat-item-433"><a href="http://cydiainstaller.net/category/cydia-ios-9-3-4/" >Cydia iOS 9.3.4</a>
+</li>
+	<li class="cat-item cat-item-457"><a href="http://cydiainstaller.net/category/cydia-ios-9-3-5/" >Cydia iOS 9.3.5</a>
+</li>
+	<li class="cat-item cat-item-483"><a href="http://cydiainstaller.net/category/cydia-iphone-7/" >Cydia iPhone 7</a>
+</li>
+	<li class="cat-item cat-item-552"><a href="http://cydiainstaller.net/category/cydia-movies/" >Cydia Movies</a>
+</li>
+	<li class="cat-item cat-item-96"><a href="http://cydiainstaller.net/category/cydia-sources/" >cydia sources</a>
+</li>
+	<li class="cat-item cat-item-520"><a href="http://cydiainstaller.net/category/cydia-tweaks/" >Cydia Tweaks</a>
+</li>
+	<li class="cat-item cat-item-454"><a href="http://cydiainstaller.net/category/delete-cydia/" >Delete Cydia</a>
+</li>
+	<li class="cat-item cat-item-456"><a href="http://cydiainstaller.net/category/cydia-download/how-to/" >How to</a>
+</li>
+	<li class="cat-item cat-item-300"><a href="http://cydiainstaller.net/category/how-to-save-jailbreak/" >How to save jailbreak</a>
+</li>
+	<li class="cat-item cat-item-243"><a href="http://cydiainstaller.net/category/imods-download/" title="iMods download &amp; install for iPhone, iPad or iPod. Cydia alternative app store for modify your device as never before. Without jailbreak, enjoy real freedom with iMods..">iMods download</a>
+</li>
+	<li class="cat-item cat-item-417"><a href="http://cydiainstaller.net/category/ios-10-jailbreak/" >iOS 10 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-505"><a href="http://cydiainstaller.net/category/ios-10-1-jailbreak/" >ios 10.1 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-515"><a href="http://cydiainstaller.net/category/ios-10-1-1-jailbreak/" >iOS 10.1.1 Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-514"><a href="http://cydiainstaller.net/category/ios-10-2-jailbreak/" >iOS 10.2 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-525"><a href="http://cydiainstaller.net/category/ios-10-2-1-jailbreak/" >iOS 10.2.1 Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-611"><a href="http://cydiainstaller.net/category/ios-10-3-1-jailbreak/" >iOS 10.3.1 Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-164"><a href="http://cydiainstaller.net/category/ios-8/" >iOS 8</a>
+</li>
+	<li class="cat-item cat-item-165"><a href="http://cydiainstaller.net/category/ios-8-download/" >iOS 8 Download</a>
+</li>
+	<li class="cat-item cat-item-72"><a href="http://cydiainstaller.net/category/ios-8-jailbreak/" >iOS 8 Jailbreak</a>
+</li>
+	<li class="cat-item cat-item-166"><a href="http://cydiainstaller.net/category/ios-8-news-ios-8/" >iOS 8 News</a>
+</li>
+	<li class="cat-item cat-item-169"><a href="http://cydiainstaller.net/category/ios-8-1/" >iOS 8.1</a>
+</li>
+	<li class="cat-item cat-item-230"><a href="http://cydiainstaller.net/category/ios-8-1-1-jailbreak/" >ios 8.1.1 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="http://cydiainstaller.net/category/ios-8-1-3-jailbreak/" >iOS 8.1.3 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="http://cydiainstaller.net/category/ios-8-2-2/" >iOS 8.2</a>
+</li>
+	<li class="cat-item cat-item-90"><a href="http://cydiainstaller.net/category/ios-8-2-jailbreak-2/" >iOS 8.2 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://cydiainstaller.net/category/ios-8-3/" >iOS 8.3</a>
+</li>
+	<li class="cat-item cat-item-121"><a href="http://cydiainstaller.net/category/ios-8-3-jailbreak/" >iOS 8.3 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-138"><a href="http://cydiainstaller.net/category/ios-8-4-jailbreak/" >iOS 8.4 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-296"><a href="http://cydiainstaller.net/category/ios-8-4-1-jailbreak/" >iOS 8.4.1 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-305"><a href="http://cydiainstaller.net/category/ios-9-2/" >iOS 9</a>
+</li>
+	<li class="cat-item cat-item-304"><a href="http://cydiainstaller.net/category/ios-9-jailbreak-2/" >iOS 9 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-308"><a href="http://cydiainstaller.net/category/ios-9-0-1-jailbreak/" >iOS 9.0.1 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-335"><a href="http://cydiainstaller.net/category/ios-9-1-jailbreak/" >iOS 9.1 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-362"><a href="http://cydiainstaller.net/category/ios-9-2-jailbreak/" >iOS 9.2 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-375"><a href="http://cydiainstaller.net/category/ios-9-3-jailbreak/" >iOS 9.3 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-380"><a href="http://cydiainstaller.net/category/ios-9-3-1-jailbreak/" >iOS 9.3.1 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-408"><a href="http://cydiainstaller.net/category/ios-9-3-2-jailbreak/" >iOS 9.3.2 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-403"><a href="http://cydiainstaller.net/category/ios-9-3-3-jailbreak/" >iOS 9.3.3 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-434"><a href="http://cydiainstaller.net/category/ios-9-3-4-jailbreak/" >iOS 9.3.4 jailbreak</a>
+</li>
+	<li class="cat-item cat-item-214"><a href="http://cydiainstaller.net/category/ipad/" >iPad</a>
+</li>
+	<li class="cat-item cat-item-617"><a href="http://cydiainstaller.net/category/online-cydia-installer/" >Online Cydia Installer</a>
+</li>
+	<li class="cat-item cat-item-132"><a href="http://cydiainstaller.net/category/p0sixspwn-jailbreak/" >p0sixspwn jailbreak</a>
+</li>
+	<li class="cat-item cat-item-197"><a href="http://cydiainstaller.net/category/pangu-jailbreak/" title="Pangu jailbreak available for iOS 9 - 9.0.2, iOS 8 - 8.1 and iOS 7.1 - 7.1.2">Pangu jailbreak</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://cydiainstaller.net/category/pp-jailbreak/" >PP jailbreak</a>
+</li>
+	<li class="cat-item cat-item-412"><a href="http://cydiainstaller.net/category/semi-restore-cydia/" >Semi Restore Cydia</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://cydiainstaller.net/category/taig-jailbreak/" >TaiG jailbreak</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://cydiainstaller.net/category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-455"><a href="http://cydiainstaller.net/category/unjailbreak/" >Unjailbreak</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://cydiainstaller.net/category/update-cydia-installer/" >Update</a>
+</li>
+	<li class="cat-item cat-item-604"><a href="http://cydiainstaller.net/category/yalu-jailbreak/" >Yalu Jailbreak</a>
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div><!-- end of #wrapper -->
+</div><!-- end of #container -->
+
+<div id="footer" class="clearfix">
+	
+	<div id="footer-wrapper">
+
+			<div id="footer_widget" class="grid col-940">
+		
+		
+			<div id="text-5" class="grid col-300 widget_text"><div class="widget-wrapper"><div class="widget-title"><h3>About Cydia Installer Copyrighted</h3></div>			<div class="textwidget">We are not affiliated with Cydia and jailbreak apps, Cydia and jailbreak applications all rights belong to respective owners. Cydia trade mark owned by Mr. Saurik( Company SaurikIT). CydiaInstaller.net help to install Cydia for most of devices & also discuss matters happened with our loving users. All Apple,Cydia,Jailbreak Logo, Trademarks are owned by respective companies and owners. We need to thanks to Apple for their great products.
+</br>
+</br>
+<A HREF="http://www.copyscape.com/plagiarism-tool/"><IMG SRC="http://banners.copyscape.com/images/cs-re-3d-88x31.gif" ALT="Protected by Copyscape Web Plagiarism Tool" TITLE="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." WIDTH="88" HEIGHT="31" BORDER="0"/></A>
+</div>
+		</div></div><div id="text-6" class="grid col-300 widget_text"><div class="widget-wrapper">			<div class="textwidget">Cydia Application Developed By Mr. Saurik for jailbroken devices. This app cannot download or install with App Store. User need to follow jailbreak apps to install this popular application. Can Cydia install without jailbreak ? No, You cannot do it. We are happy to give all necessary instructions for all users interesting with Cydia. If you have any matter comments us to take your solution. Our support team ready to help you. Email us support@cydiaintaller.net.</div>
+		</div></div>
+		
+			</div><!-- end of #footer-widget -->
+
+		<div class="grid col-940">
+
+			<div class="grid col-540">
+							</div><!-- end of col-540 -->
+
+			<div class="grid col-380 fit">
+				<ul class="social-icons"><li class="twitter-icon"><a href="https://twitter.com/Cydia_Installer"><img src="http://cydiainstaller.net/wp-content/themes/responsive/core/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li><li class="facebook-icon"><a href="https://www.facebook.com/cydiaInstaller1/"><img src="http://cydiainstaller.net/wp-content/themes/responsive/core/icons/facebook-icon.png" width="24" height="24" alt="Facebook"></a></li><li class="googleplus-icon"><a href="https://plus.google.com/u/0/104353401679803623392/posts"><img src="http://cydiainstaller.net/wp-content/themes/responsive/core/icons/googleplus-icon.png" width="24" height="24" alt="Google+"></a></li></ul><!-- .social-icons -->			</div><!-- end of col-380 fit -->
+
+		</div><!-- end of col-940 -->
+		
+		<div class="grid col-300 copyright">
+			&copy; 2017<a href="http://cydiainstaller.net/" title="Cydia Installer">
+				Cydia Installer			</a>
+		</div><!-- end of .copyright -->
+
+		<div class="grid col-300 scroll-top"><a href="#scroll-top" title="scroll to top">&uarr;</a></div>
+
+		<div class="grid col-300 fit powered">
+			<a href="http://cyberchimps.com/responsive-theme/" title="Responsive Theme">
+				Responsive Theme</a>
+			powered by <a href="http://wordpress.org/" title="WordPress">
+				WordPress</a>
+		</div><!-- end .powered -->
+
+	</div><!-- end #footer-wrapper -->
+
+	</div><!-- end #footer -->
+
+
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"a6c478a83c","is_admin":"","is_mobile":"1","ajaxurl":"http:\/\/cydiainstaller.net\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=1.9.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var zerospam = {"key":"T67!UmkP4twmI)UwSGCRYh6QTdz7!G1^Rij^QDXQuR43B7FXs1L6&x&71(^P56G!"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-content/plugins/zero-spam/js/zerospam.js?ver=3.0.6'></script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7'></script>
+<script type='text/javascript' src='http://cydiainstaller.net/wp-includes/js/comment-reply.min.js?ver=4.3.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FB_WP=FB_WP||{};FB_WP.queue={_methods:[],flushed:false,add:function(fn){FB_WP.queue.flushed?fn():FB_WP.queue._methods.push(fn)},flush:function(){for(var fn;fn=FB_WP.queue._methods.shift();){fn()}FB_WP.queue.flushed=true}};window.fbAsyncInit=function(){FB.init({"xfbml":true});if(FB_WP && FB_WP.queue && FB_WP.queue.flush){FB_WP.queue.flush()}}
+/* ]]> */
+</script>
+<script type="text/javascript">(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="http:\/\/connect.facebook.net\/en_US\/all.js";fjs.parentNode.insertBefore(js,fjs)}(document,"script","facebook-jssdk"));</script>
+<div id="fb-root"></div></body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced
+
+ Served from: cydiainstaller.net @ 2017-05-08 21:15:59 by W3 Total Cache -->
