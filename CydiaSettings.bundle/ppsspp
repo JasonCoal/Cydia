@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+    
+<link rel="shortcut icon" href="https://cdn.builds.io/static/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://cdn.builds.io/static/favicon.ico" type="image/x-icon">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta name="apple-mobile-web-app-title" content="BuildStore">
+
+    <title>PPSSPP</title>
+
+    <link href="//cdn.builds.io" rel="dns-prefetch">
+    <link href="//platform.twitter.com" rel="dns-prefetch">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+
+    <meta name="twitter:widgets:theme" content="light">
+<meta name="twitter:widgets:link-color" content="#55acee">
+<meta name="twitter:widgets:border-color" content="#55acee">
+
+
+    <link rel="stylesheet" href="https://cdn.builds.io/static/CACHE/css/e267a04d190e.css" type="text/css" />
+    
+    <link rel="stylesheet" href="https://cdn.builds.io/static/css/install-button.css"/>
+
+
+    <link rel="apple-touch-icon" href="https://cdn.builds.io/static/assets/Icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.builds.io/static/assets/Icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.builds.io/static/assets/Icon-60%402x.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.builds.io/static/assets/Icon-76%402x.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://cdn.builds.io/static/assets/Icon-167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.builds.io/static/assets/Icon-60%403x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.builds.io/static/assets/Icon-72%402x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.builds.io/static/assets/Icon%402x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.builds.io/static/assets/Icon-72.png">
+
+    
+
+    <!-- Google Analytics -->
+<script>
+    var userId, params;
+
+    window.ga = window.ga || function () {
+            (ga.q = ga.q || []).push(arguments)
+        };
+    ga.l = +new Date;
+
+    
+
+    if (userId) {
+        ga('create', 'UA-36321328-3', 'builds.io', params);
+        ga('set', 'dimension2', userId);
+    } else {
+        ga('create', 'UA-36321328-3', 'builds.io');
+    }
+
+    ga('require', 'displayfeatures');
+
+    ga(function (tracker) {
+        var clientID = tracker.get('clientId'); //Получаем ID пользователя
+        document.cookie = "_ga_cid=" + clientID + "; path=/"; // Сохраняем в куку
+        ga('set', 'dimension1', clientID); //Сохраняем ID в переменную в GA
+
+        if (userId) {
+            params['dimension1'] = clientID;
+        } else {
+            params = {
+                'dimension1': clientID
+            }
+        }
+
+        if (userId) {
+            ga('send', 'pageview', params);
+        } else {
+            ga('send', 'pageview');
+        }
+    });
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+    
+<script src="https://cdn.ravenjs.com/3.14.0/raven.min.js"></script>
+<script type="text/javascript">
+    Raven.config('https://79b4a77e696d48d898c1b96e65087ae0@sentry.io/32505').install();
+</script>
+</head>
+<body>
+
+
+    <div class="container-liquid">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">BuildStore</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/"><span class="glyphicon glyphicon-th"></span>&nbsp;Applications</a>
+                    </li>
+
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/terms/">Terms of Service</a></li>
+                    <li><a href="/help/">Help</a></li>
+                    <li class="divider"></li>
+                    <li>
+                        
+                            <a href="/accounts/login/">
+                                <span class="glyphicon glyphicon-log-in"></span>&nbsp;Log In
+                            </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+
+    
+    <div class="container">
+        
+        
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var alertMessages = $('.alert-message');
+
+            if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+                alertMessages.css({'float': 'none'});
+            }
+
+            $('.alert-message .close').on('click', function (e) {
+                $(e.currentTarget).parent().hide();
+                e.stopPropagation();
+            });
+        };
+    </script>
+
+
+
+        
+        
+        <div class="row" style="margin-top:16px;">
+            
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <div class="app-item">
+                        
+                            
+                            <img style="margin:0px 0px 0px 0px" src="https://cdn.builds.io/cache/f8/9b/f89b51117a4a558060f223fc32df794d.jpg"
+                                 srcset="https://cdn.builds.io/cache/f8/9b/f89b51117a4a558060f223fc32df794d@2x.jpg 2x" width="165" height="165"
+                                 alt="PPSSPP icon" id="big-app-icon">
+                        
+                    </div>
+                </div>
+            
+            <div class="col-md-9 col-xs-8">
+                <h1 style="padding-top: 0; margin-top:0;">PPSSPP</h1>
+                
+                    <a href="/accounts/register/" class="fake-spinner-button"
+                       data-app-id=""
+                       onclick="sendToGA('install-button', 'tap');">
+                        <strong class="emptiness"></strong>
+                        <span class="normal">Install</span>
+                    </a>
+                    <br/>
+                
+            </div>
+        </div>
+        
+        
+            
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <h3>Description</h3>
+                    <p>PPSSPP is the best and only PSP emulator for iOS written in C++. It is capable of running a lot of original games but, depending on the power of your device, not all may run at full speed due to restrictions on non-jailbroken devices.
+<br/><br/>
+PPSSPP was originally created by Henrik Rydgård in November 2012; however, iOS builds are mostly managed by talented developer, Karen Tsai (aka <a href="http://twitter.com/angelxwind">@angelxwind</a>) and a large group of contributors that submit issue reports and fixes. Several versions of PPSSPP can be played on numerous devices such as Android, Windows, Mac, Linux and Blackberry 10. The iOS version can be found on both Jailbreak and non-Jailbreak devices.
+<br/><br/>
+PPSSPP supports all versions of iPad, iPhone, iPod touch running iOS 5 and above; this includes iPhone 5 and other retina-enabled devices. The emulator does not require bios to play, PPSSPP is - in many ways - a “HLE” emulator. PPSSPP requires ROM images, specifically .ISO or .CSO files, to play. No ROMs are included in this copy of the emulator. If you own any games, add them through iTunes Sharing or other programs like 'iExplorer.' Keep in mind these files are extremely big, sometimes taking several gigs in size. 
+<br/><br/>
+PPSSPP is built to use JIT decompilers (dynarecs) which can only be accessed on a jailbroken device due to the codesigining requirement. Therefore, most games will run very slow on non-jailbroken devices; however, there are a few older PSP games that will run just fine and up to speed depending on your iOS device. 
+<br/><br/>
+PSP is a trademark of Sony, Inc.
+
+<h3>Features</h3>
+<ul>
+<li>Graphic Settings</li>
+<li>CLUT texturing</li>
+<li>Improved ISO file system</li>
+<li>Better savedata compatibility</li>
+<li>PMP video format support</li>
+<li>Improved emulation of the vrot CPU</li>
+<li>Multiple UI Language Support</li>
+<li>Customizable on-screen controls</li>
+<li>Audio Adjust</li>
+<li>Fast Forward</li>
+<li>Cheats</li>
+<li>Save and Load States</li>
+<li>Full iPad Support</li>
+</ul>
+
+<h3>Known Issues</h3>
+<ul>
+<li>May not run at full-speed on non-jailbroken devices</li>
+<li>Star Ocean bug</li>
+<li>May crash on older, less powerful devices</li>
+</ul>
+<br/>
+If you find any issues, please contact <a href="mailto:iemulators@gmail.com">iEmulators Support</a>.</p>
+                </div>
+            </div>
+            <hr/>
+            
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <h3>About this version</h3>
+                        <p>
+
+                            
+                                <span style="font-weight: bold;">Version:</span>
+                                <span>1.3</span>
+                            
+                        </p>
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+                <hr>
+            
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <h3>Developer information</h3>
+                    <h4>
+                        <small>&copy; 
+                            Created by <a target='_blank' rel="nofollow"
+                                          href="http://ppsspp.org.com/">PPSSPP Team &rarr;</a>
+                        </small>
+                    </h4>
+                </div>
+            </div>
+            
+                <hr/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Other applications in the category "Retro Gaming"</h3>
+
+                        <div class="app-items">
+                            
+                                <div class="app-item"
+                                     style="width: 130px; height: 220px; float: left; margin-right: 8px;">
+                                    <a href="/apps/gba4ios-21/">
+                                        
+                                            
+                                            <img style="margin:0px 0px 0px 0px" src="https://cdn.builds.io/cache/f4/c3/f4c38682bcc608724ec5d840f62fa72b.jpg"
+                                                 srcset="https://cdn.builds.io/cache/f4/c3/f4c38682bcc608724ec5d840f62fa72b@2x.jpg 2x" width="130"
+                                                 height="130">
+                                        
+                                    </a>
+
+                                    <h5>GBA4IOS 2.1 <br/>
+                                        <small>GBA4iOS is a Game Boy Advance emulator created ...</small>
+                                    </h5>
+                                </div>
+                            
+                                <div class="app-item"
+                                     style="width: 130px; height: 220px; float: left; margin-right: 8px;">
+                                    <a href="/apps/gba4ios_2/">
+                                        
+                                            
+                                            <img style="margin:0px 0px 0px 0px" src="https://cdn.builds.io/cache/a4/a8/a4a867644ec420b20b88fefe3f059566.jpg"
+                                                 srcset="https://cdn.builds.io/cache/a4/a8/a4a867644ec420b20b88fefe3f059566@2x.jpg 2x" width="130"
+                                                 height="130">
+                                        
+                                    </a>
+
+                                    <h5>GBA4iOS 2.0 <br/>
+                                        <small>GBA4iOS 2.0, created by Riley Testut, was relea...</small>
+                                    </h5>
+                                </div>
+                            
+                                <div class="app-item"
+                                     style="width: 130px; height: 220px; float: left; margin-right: 8px;">
+                                    <a href="/apps/happychick-152/">
+                                        
+                                            
+                                            <img style="margin:0px 0px 0px 0px" src="https://cdn.builds.io/cache/a0/fc/a0fc786a65cd5fc67adb37ae0ba0f535.jpg"
+                                                 srcset="https://cdn.builds.io/cache/a0/fc/a0fc786a65cd5fc67adb37ae0ba0f535@2x.jpg 2x" width="130"
+                                                 height="130">
+                                        
+                                    </a>
+
+                                    <h5>HappyChick 1.5.2 <br/>
+                                        <small>Happy Chick is one of the most comprehensive ga...</small>
+                                    </h5>
+                                </div>
+                            
+                                <div class="app-item"
+                                     style="width: 130px; height: 220px; float: left; margin-right: 8px;">
+                                    <a href="/apps/newgamepad/">
+                                        
+                                            
+                                            <img style="margin:0px 0px 0px 0px" src="https://cdn.builds.io/cache/58/c9/58c9a0c62ef359708a5df4a4e6f82fe1.jpg"
+                                                 srcset="https://cdn.builds.io/cache/58/c9/58c9a0c62ef359708a5df4a4e6f82fe1@2x.jpg 2x" width="130"
+                                                 height="130">
+                                        
+                                    </a>
+
+                                    <h5>NewGamepad <br/>
+                                        <small>Brand new emulator - NewGamepad was developed f...</small>
+                                    </h5>
+                                </div>
+                            
+                                <div class="app-item"
+                                     style="width: 130px; height: 220px; float: left; margin-right: 8px;">
+                                    <a href="/apps/inds/">
+                                        
+                                            
+                                            <img style="margin:0px 0px 0px 0px" src="https://cdn.builds.io/cache/2c/16/2c164332cb9575c3134b2fefb0c9a47e.jpg"
+                                                 srcset="https://cdn.builds.io/cache/2c/16/2c164332cb9575c3134b2fefb0c9a47e@2x.jpg 2x" width="130"
+                                                 height="130">
+                                        
+                                    </a>
+
+                                    <h5>iNDS <br/>
+                                        <small>iNDS is a port of the multi-platform Nintendo D...</small>
+                                    </h5>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+        
+    </div>
+
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+<script type="text/javascript" src="https://cdn.builds.io/static/CACHE/js/24f99b21b862.js"></script>
+
+    
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            
+            $.ajaxSetup({'headers': {'X-CSRFToken': "5vzJFiwVpvKNg7Qjc9nltWUf5hTfix6mVng8ToRfzWNpXXog0jv9PtNT8DLE9jJH"}});
+            
+            $('.carousel').carousel();
+        });
+    </script>
+
+</body>
+</html>
+
+
