@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="Author" content="Apple Inc." />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9">
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="mask-icon" href="/apple-logo.svg" color="#333333">
+
+<link rel="stylesheet" href="/assets/styles/globalnav.css" type="text/css" />
+<link rel="stylesheet" href="/assets/styles/localnav.css" type="text/css" />
+<link rel="stylesheet" href="/assets/styles/global.dist.css" type="text/css" />
+
+<!--[if lt IE 9]>
+	<link rel="stylesheet" href="/assets/styles/oldie.css" type="text/css" />
+	<script src="/assets/scripts/html5.js"></script>
+<![endif]-->
+
+<script src="/assets/scripts/lib/jquery/jquery-1.11.0.min.js"></script>
+<script src="/assets/scripts/lib/jquery/jquery.retinate.js"></script>
+<script src="/assets/scripts/global.js"></script>
+<script src="/assets/scripts/global-logout.js"></script>
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Pro&v=1" type="text/css" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Pro+Icons&v=1" type="text/css" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Mono&v=1" type="text/css" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Apple+Icons&amp;v=1">
+	<title>News and Updates - Apple Developer</title>
+	<meta name="omni-page" content="News and Updates - Apple Developer" />
+	<meta name="Description" content="Get updates, tips, and how-to information on a range of development, App Store, and Mac App Store topics." />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="feed://developer.apple.com/news/rss/news.rss">
+	<link rel="stylesheet" href="/news/styles/news.css" type="text/css" />
+</head>
+<body id="news" class="news">
+
+	<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-US">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon"> <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open"> <span class="ac-gn-menuanchor-label">Open Menu</span> </a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close"> <span class="ac-gn-menuanchor-label">Close Menu</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="/" id="ac-gn-firstfocus-small"> <span class="ac-gn-link-text">Apple Developer</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<a class="ac-gn-link ac-gn-link-bag" href="/account/"> <span class="ac-gn-link-text">Account</span> <span class="ac-gn-bag-badge"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> </li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="/" id="ac-gn-firstfocus"> <span class="ac-gn-link-text">Apple Developer</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-discover">
+				<a class="ac-gn-link" href="/discover/"> <span>Discover</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-design">
+				<a class="ac-gn-link" href="/design/"> <span>Design</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-develop">
+				<a class="ac-gn-link" href="/develop/"> <span>Develop</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-distribute">
+				<a class="ac-gn-link" href="/distribute/"> <span>Distribute</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link" href="/support/"> <span>Support</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-account">
+				<a class="ac-gn-link" href="/account/"> <span>Account</span> </a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a id="ac-gn-search-button" class="ac-gn-link ac-gn-link-search" href="/search/" aria-label="Search developer.apple.com"> <span class="ac-gn-search-placeholder" aria-hidden="true">Search</span> </a>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="/search/" method="get">
+					<div class="ac-gn-searchform-wrapper"> <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" name="q" placeholder="Search" data-placeholder-long="Search for documentation, videos, and more" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" /> <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit"></button> <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search"></button> </div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults="Hit enter to search.">
+
+				</aside>
+			</div> <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button> </aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<script type="text/javascript" src="/assets/scripts/ac-globalnav.built.js"></script>
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+<script type="text/javascript">
+/* RSID: */
+var s_account="appleglobal,appleusdeveloper"
+</script>
+
+<script type="text/javascript" src="https://www.apple.com/metrics/scripts/s_code_h.js"></script>
+<script type="text/javascript">
+s.pageName= AC && AC.Tracking && AC.Tracking.pageName();
+s.channel="www.us.developer"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+	<main id="main" class="main" role="main">
+		<section class="grid">
+
+						<section class="row divider-bottom">
+				<section class="col-100 padding-top padding-bottom-small text-center">
+					<h1 class="font-thin">News and Updates</h1>
+					<a class="right" href="feed://developer.apple.com/news/rss/news.rss">RSS Feed</a>
+				</section>
+			</section>
+			
+			<section class="row article-list-wrapper">
+				<section class="col-80 center article-list">
+										
+					<article id="article-05042017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title external-link" href="/download/"><h2>tvOS 10.2.1 beta 5 (14W585) Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">May 4, 2017</p>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-05032017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-analytics/app-analytics-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=05032017a"><h2>App Store Sources and App Referrer Data Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">May 3, 2017</p>
+																											<span class="article-text"><p>App Analytics in iTunes Connect now provides insight on where customers discover your app, including App Store browsing and search, within other apps, or on the web. With key metrics based on source types, you can see your top referring apps and websites, making it easier to optimize your marketing campaigns.</p><p><a href="/app-store/app-analytics/">Learn more about App Analytics</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-05012017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title external-link" href="/download/"><h2>macOS Sierra 10.12.5 beta 5 (16F71b) Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">May 1, 2017</p>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04282017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title external-link" href="/download/"><h2>iOS 10.3.2 beta 5 (14F5089a) Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 27, 2017</p>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04242017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=04242017a"><h2>New Beta Downloads Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 24, 2017</p>
+																											<span class="article-text"><p>Test your apps with the latest release of macOS, iOS, watchOS, and tvOS.<ul><li>macOS Sierra 10.12.5 beta 4 (16F67a)</li><li>iOS 10.3.2 beta 4 (14F5086a)</li><li>watchOS 3.2.2 beta 4 (14V5485a)</li><li>tvOS 10.2.1 beta 4 (14W5583a)</li></ul><a href="/download/">View all downloads</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04202017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/live-photos/live-photos.svg" width="128" height="128" alt="LivePhotos">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=04202017a"><h2>Introducing LivePhotosKit JS</span></h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 20, 2017</p>
+																											<span class="article-text"><p>This new JavaScript-based API makes it easy to embed Live Photos on your websites. In addition to enabling Live Photos on iOS and macOS, you can now let users display their Live Photos on the web.</p><p> <a href="/live-photos/">Learn more about Live Photos</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04192017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=04192017a"><h2>Search Ads is Expanding to the UK, Australia, and New&nbsp;Zealand</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 19, 2017</p>
+																											<span class="article-text"><p>Starting April 25, 2017 at 10 a.m. PDT, Search Ads will be available on the App&nbsp;Store in the UK, Australia, and New&nbsp;Zealand, providing an efficient and easy way to promote your app at the top of relevant search results in more markets. Get started with your campaigns&nbsp;today.</p><p><a href="https://searchads.apple.com/?cid=SA-IN-US-DRNWS2">Learn more about Search Ads</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04182017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title external-link" href="/download/"><h2>Xcode 8.3.2 (8E2002) Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 18, 2017</p>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04112017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/testflight/testflight-128x128.png" width="128" height="128" alt="TestFlight">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=04112017a"><h2>What’s New in TestFlight</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 11, 2017</p>
+																											<span class="article-text"><p>TestFlight in iTunes Connect now provides multiple build support, enhanced group capabilities, and improved tester management—making it even easier to test your apps.</p><p><b>Multiple Builds</b><br>TestFlight now lets you distribute and test multiple builds at the same time, so testers can choose from a number of builds to test.</p><p><b>Groups</b><br>TestFlight groups have changed. You can now do more with them, like create groups of TestFlight users, and each group can test a different build. To get you started, we’ve added all of your existing external testers to the group “External Testers,” which you can edit at any time.</p><p><b>Tester Management</b><br>Testers can continue testing a build when it goes live on the App&nbsp;Store, minimizing disruptions. iTunes Connect users can also access all active builds, letting them seamlessly compare different builds and you can easily resend invitations to testers who have not yet accepted their invitation.</p><p> <a href="/testflight/">Learn more about TestFlight</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-04062017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title external-link" href="/download/"><h2>Xcode 8.3.1 (8E1000a) Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">April 6, 2017</p>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03312017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03312017a"><h2>Announcing App Accelerator Bengaluru</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 31, 2017</p>
+																											<span class="article-text"><p>The new App Accelerator provides a unique opportunity to get inspired by learning about the latest advances in iOS, watchOS, tvOS, and macOS—directly from Apple experts in Bengaluru, India. Throughout the year, local developers can attend presentations on the capabilities of Apple platforms, explore best practices for optimizing apps, and learn more about designing high-quality apps for Apple platforms.</p><p> <a href="/accelerator/">Learn more about the App Accelerator</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03302017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03302017a"><h2>SAP Cloud Platform SDK for iOS Now&nbsp;Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 30, 2017</p>
+																											<span class="article-text"><p>Apple and SAP are working together to make it easier than ever to reinvent business processes and workflows everywhere. With the new SAP Cloud Platform SDK for iOS, you can build powerful native iOS apps that integrate seamlessly with the SAP Cloud Platform.</p><p> <a href="/sap/">Learn more about the SDK</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03282017b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/apple-pay/apple-pay.svg" width="128" height="128" alt="Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03282017b"><h2>Apple Pay Has Expanded to Taiwan</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 28, 2017</p>
+																											<span class="article-text"><p>You can now support Apple Pay for your customers in Taiwan, providing an easy and secure way for them to pay within your apps and websites with a single touch.</p><p><span class="nowrap"><a href="/apple-pay/">Learn more about Apple Pay</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03272017c" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03272017c"><h2>Ratings, Reviews, and Responses on the App Store</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 27, 2017</p>
+																											<span class="article-text"><p>Now you can engage new and existing customers more easily with streamlined ratings and reviews capabilities.</p><p><b>In-App Ratings and Reviews</b><br>The new StoreKit API available on iOS 10.3 makes it easy for customers to provide App Store ratings and reviews without leaving your app. Simply choose when you’d like to prompt the user, and the system takes care of the rest.</p><p><b>Responding to Customers</b><br>You can now publicly respond to customer reviews of your app on the App Store for iPhone, iPad, and Mac. When you respond, the customer is notified and has the option to update their feedback.</p><p> <a href="/app-store/ratings-and-reviews/">Learn more about Ratings and Reviews</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03272017b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/sdk-10/sdk-128x128.png" width="128" height="128" alt="SDK">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03272017b"><h2>New Downloads Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 27, 2017</p>
+																											<span class="article-text"><p>Xcode 8.3 is now available, and includes Swift 3 and SDKs that you can use to build and test apps for the latest release of macOS, iOS, watchOS, and tvOS.<ul><li>macOS Sierra 10.12.4 (16E195)</li><li>iOS 10.3 (14E277)</li><li>watchOS 3.2 (14V249)</li><li>tvOS 10.2 (14W265)</li><li>Xcode 8.3 (8E162)</li></ul><a href="/download/">View all downloads</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03272017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/wwdc17.png" width="160" height="160" alt="WWDC17">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03272017a"><h2>WWDC 2017 Registration Now Open</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 27, 2017</p>
+																											<span class="article-text"><p>The opportunity to buy tickets to this year’s conference is offered by random selection. Register by Friday, March 31 at 10:00 a.m. PDT for your chance to join thousands of others coming together to change the world.</p><p><a href="/wwdc/">Learn more about WWDC 2017</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03232017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/swift-playgrounds/swift-playgrounds-outline-128x128.png" width="128" height="128" alt="Swift Playgrounds">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03232017a"><h2>Swift Playgrounds 1.2 Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 23, 2017</p>
+																											<span class="article-text"><p>Swift Playgrounds, the revolutionary app for iPad that helps students learn to code, is now localized in Simplified Chinese, French, German, Japanese, and Latin American Spanish, making it even easier for more students around the world to learn and experiment with code.</p><p><span class="nowrap"><a href="http://www.apple.com/newsroom/2017/03/swift-playgrounds-now-available-in-five-additional-languages.html"> Read the full press release</a>.</span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03072017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/apple-pay.png" width="128" height="128" alt="Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03072017a"><h2>Apple Pay Has Expanded to Ireland</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 7, 2017</p>
+																											<span class="article-text"><p>You can now support Apple Pay for your customers in Ireland, providing an easy and secure way for them to pay within your app and website with a single touch.  <span class="nowrap"><a href="/apple-pay/">Learn more about Apple Pay</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-03062017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/wwdc17.png" width="160" height="160" alt="WWDC Scholarships">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=03062017a"><h2>WWDC Scholarship Details Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">March 6, 2017</p>
+																											<span class="article-text"><p>WWDC Scholarships reward talented students and STEM organization members with the opportunity to attend this year’s conference. Developers selected for a scholarship will receive a WWDC17 ticket and lodging free of charge.</p><p><a href="/wwdc/scholarships/">Learn more about WWDC Scholarships.</a></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-02152017a" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=02152017a"><h2>Announcing WWDC 2017</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">February 16, 2017</p>
+																											<span class="article-text"><p>Apple’s developer community will come together at WWDC 2017 in San Jose, California from June 5 to 9 to learn about the future of Apple platforms and connect with thousands of developers from all around the world. In addition to the activities planned for conference attendees, a variety of other exciting developer events will take place throughout the city. <a href="/wwdc/"><span class="nowrap">Learn more about WWDC</span>.</a></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-02082017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/app-vainglory.png" width="128" height="128" alt="Vainglory">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=02082017a"><h2>Developer Insights Series: Managing a Community</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">February 15, 2017</p>
+																											<span class="article-text"><p>Super Evil Megacorp, the developer behind the mobile-first multiplayer game Vainglory, shares its approach to community management, and how it evolves the game by listening to player feedback. <span class="nowrap"><a href="/app-store/super-evil-megacorp/">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-02012017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/game-center/game-center-128x128.png" width="128" height="128" alt="Game Center">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=02012017a"><h2>Updated Certificate for Game Center Authentication</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">February 1, 2017</p>
+																											<span class="article-text"><p>On February 13, 2017, a new certificate for server-based <span class="nowrap">Game Center</span> Player ID verification will be available via the publicKeyUrl property of <span class="nowrap"><a href="https://developer.apple.com/reference/gamekit/gklocalplayer/1515407-generateidentityverificationsign">generateIdentityVerificationSignature</a></span>, and the previous certificate will expire.</p><p>Apps that dynamically query the publicKeyUrl value will automatically use the new certificate, whereas apps that cache the certificate or hardcode the certificate URL may require an update. <span class="nowrap"><a href="https://forums.developer.apple.com/message/209278#209278">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-01242017c" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=01242017c"><h2>Allow Users to Provide Ratings From Within Your App </h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">January 24, 2017</p>
+																											<span class="article-text"><p>With iOS 10.3, you can use a new API to ask users to provide App&nbsp;Store ratings and reviews without leaving your app. You can also publicly respond to customer reviews on the App&nbsp;Store and Mac&nbsp;App&nbsp;Store. <span class="nowrap"><a href="https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewIniOS/Articles/iOS10_3.html#//apple_ref/doc/uid/TP40017594-SW1/">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-01242017b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/sirikit/sirikit-128x128.png" width="128" height="128" alt="SiriKit">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=01242017b"><h2>SiriKit Now Available on watchOS 3.2</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">January 24, 2017</p>
+																											<span class="article-text"><p>Use APIs to integrate Siri’s natural language experience into your watchOS app.  SiriKit supports apps for fitness, payments, rides, and messages so users can ask Siri to start a workout, send money, book a ride, and more.  <span class="nowrap"><a href="https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInwatchOS/Articles/watchOS3_2.html#//apple_ref/doc/uid/TP40017593-SW1">Learn more about SiriKit for watchOS</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-01192017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/ios/ios-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=01192017a"><h2>Design Resources for iOS Apps Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">January 19, 2017</p>
+																											<span class="article-text"><p>Creating iOS apps is even easier with the updated Apple UI Design Resources. Use the latest Sketch and Photoshop templates and guides, color palettes, and the San Francisco typeface to quickly and accurately design iOS apps that integrate seamlessly into the overall user experience of iOS. <span class="nowrap"><a href="/ios/human-interface-guidelines/resources/"> Learn more.</a></span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-01122017c" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/tvos-app-store.png" width="160" height="96" alt="App Store for Apple TV">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=01122017c"><h2>Now Accepting Larger tvOS Binaries</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">January 12, 2017</p>
+																											<span class="article-text"><p>The size limit of a tvOS app bundle has increased from 200 MB to 4&nbsp;GB, so you can include more media in your submission and provide a complete, rich user experience upon installation. Also, tvOS apps can use <span class="nowrap">On-Demand</span> Resources to host up to 20&nbsp;GB of additional content on the App Store.</p><p> <a href="/tvos/submit/">Learn more about preparing apps for the <span class="nowrap">App Store</span></a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-01052017a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/app-store-2017.png" width="200" height="130" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=01052017a"><h2>What a Way to Begin 2017</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">January 5, 2017</p>
+																											<span class="article-text"><p>The App Store welcomed 2017 with its busiest single day ever on New Year’s Day, with customers around the world spending $240&nbsp;million on apps and in-app purchases. Developers earned over $20&nbsp;billion last year, and to date have earned a cumulative $60 billion from the sale of apps and games. Thank you for the many innovative apps you've created — which together with our products — help to truly enrich people’s lives. <span class="nowrap"><a href="http://www.apple.com/newsroom/2017/01/app-store-shatters-records-on-new-years-day.html">See the full press release.</a></span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-12212016b" class="article no-image divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																							</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=12212016b"><h2>Supporting App Transport Security</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">December 21, 2016</p>
+																											<span class="article-text"><p>App Transport Security (ATS), introduced in iOS 9 and OS X v10.11, improves user security and privacy by requiring apps to use secure network connections over HTTPS. At WWDC 2016 we announced that apps submitted to the App Store will be required to support ATS at the end of the year. To give you additional time to prepare, this deadline has been extended and we will provide another update when a new deadline is confirmed. <a href="/videos/play/wwdc2016/706/"><span class="nowrap">Learn more about ATS</span>.</a></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-12152016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=12152016a"><h2>Winter Holiday Schedule</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">December 15, 2016</p>
+																											<span class="article-text"><p>As a reminder, we will not be accepting new app or app update submissions from December 23 to 27 (Pacific Time), so any releases should be submitted, approved, and scheduled in advance. Other iTunes Connect and developer account features will remain available.</p><p><span class="nowrap"><a href="/app-store/submissions/">Learn more about preparing apps for the App Store</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-12142016d" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/app-originator.png" width="128" height="128" alt="Originator">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=12142016d"><h2>Developer Insights Series: Building a Business in the Kids Category</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">December 14, 2016</p>
+																											<span class="article-text"><p>The five-person team at Originator shares its approach to building a sustainable business in the Kids category on the App Store and how it got the word out about its Endless apps.  <span class="nowrap"><a href="/app-store/originator/">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-12072016b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=12072016b"><h2>Best of 2016</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">December 7, 2016</p>
+																											<span class="article-text"><p>Congratulations to the developers featured in the App Store Best of 2016. This showcase honors the year’s most innovative apps and games on the App Store, and celebrates the amazing app experiences that developers have created for Mac, iPhone, iPad, Apple&nbsp;Watch, and Apple&nbsp;TV. <span class="nowrap"><a href="/app-store/best-of-2016/">See all the featured apps.</a></span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-12012016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/apple-pay.png" width="128" height="128" alt="Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=12012016a"><h2>Apple Pay Has Expanded to Spain</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">December 1, 2016</p>
+																											<span class="article-text"><p>You can now support Apple Pay for your customers in Spain, providing an easy and secure way for them to pay within your app and website with a single touch.  <span class="nowrap"><a href="/apple-pay/">Learn more about Apple Pay</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-11292016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=11292016a"><h2>Get Your Apps Ready for the Holidays</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">November 29, 2016</p>
+																											<span class="article-text"><p>The busiest season on the App Store is almost here. Make sure your apps are up-to-date and ready for the winter holidays. New apps and app updates will not be accepted December 23 to 27 (Pacific Time), so any releases should be submitted, approved, and scheduled in advance. Other iTunes Connect and developer account features will remain available.</p><p> <span class="nowrap"><a href="/app-store/submissions/">Learn more about preparing apps for the App Store</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-11172016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/hour-of-code.png" width="128" height="128" alt="Hour of Code">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=11172016a"><h2>The Hour of Code</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">November 17, 2016</p>
+																											<span class="article-text"><p>As part of Computer Science Education Week, Apple will help inspire the next generation of developers with free Hour of Code workshops at your local Apple Store from December 5 to 11. Each workshop is a one-hour introduction to the basics of computer programming. To sign up for a workshop or learn how to host your own Hour of Code event, see the <a href=" http://www.apple.com/retail/code/?CID=mkts-edu-ecc-dvlprnews-hoc">Apple Store website</a>.</p><p>The Hour of Code is an initiative by <a href="https://csedweek.org">Computer Science Education Week</a> and <a href="https://code.org">Code.org</a> to introduce millions of students around the world to one hour of computer science and computer programming.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-11142016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/apple-pay/apple-pay-128x128.png" width="128" height="128" alt="Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=11142016a"><h2>Apple Pay for Donations</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">November 14, 2016</p>
+																											<span class="article-text"><p>U.S.-based nonprofits can now use <span class="nowrap"><a href="/apple-pay/">Apple Pay</a></span> to provide a simple and secure way to accept donations from within their app and website. <span class="nowrap"><a href="http://www.apple.com/newsroom/2016/11/a-touch-of-giving-with-apple-pay.html">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-11092016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/tvos-app-store.png" width="160" height="96" alt="App Store for Apple TV">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=11092016a"><h2>Linking to Your tvOS App Product Pages</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">November 9, 2016</p>
+																											<span class="article-text"><p>Make it easier for customers to view your tvOS apps on the App&nbsp;Store for iPhone and iPad, and on the iTunes Store on Mac and PC with a direct link your app’s product page. Customers who have enabled their Apple TV to automatically install apps can download your app straight to Apple&nbsp;TV from their iOS device or computer. Simply get the link from <a href="https://linkmaker.itunes.apple.com/">iTunes Link Maker</a> and use it when promoting your app.<p><p><a href="/tvos/submit/">Learn more about preparing tvOS apps for the App Store</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-10312016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/vpp/vpp-128x128.png" width="128" height="128" alt="VPP">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=10312016a"><h2>Volume Purchase Program has Expanded</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">October 31, 2016</p>
+																											<span class="article-text"><p>The Volume Purchase Program is now available in Austria, Brazil, Czech Republic, Hungary, India, Poland, Portugal, and South Africa, making it easier for businesses and educational institutions in these countries to discover, purchase, and distribute your iOS apps and Mac apps in volume. <a href="/programs/volume/">Learn more</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-10282016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=10282016a"><h2>In-App Purchase Promo Codes <span class="nowrap">Now Available</span>.</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">October 28, 2016</p>
+																											<span class="article-text"><p>Give press and influencers early access to your app’s in-app purchases with promo codes from iTunes Connect. You can give away up to 100 promo codes for each in-app purchase item, up to a maximum of 1,000 codes per app.</p><p> <span class="nowrap"><a href="https://itunespartner.apple.com/en/apps/faq/Managing%20Your%20Apps_Promo%20Codes">Learn more about promo codes</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-10252016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/apple-pay.png" width="128" height="128" alt="Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=10252016a"><h2>Apple Pay Has Expanded to Japan</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">October 25, 2016</p>
+																											<span class="article-text"><p>You can now support Apple Pay for your customers in Japan, providing an easy and secure way for them to pay within your app and website with a single touch.  <span class="nowrap"><a href="/apple-pay/">Learn more about Apple Pay</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-10202016b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/app-battle-camp.png" width="128" height="128" alt="Battle Camp">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=10202016b"><h2>Developer Insights Series: Marketing a Game at Launch</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">October 20, 2016</p>
+																											<span class="article-text"><p>WRKSHP shares how it built an audience in the lead-up to the worldwide launch of Battle Camp, and how it attracted hundreds of thousands of players with limited marketing resources. <span class="nowrap"><a href="/app-store/wrkshp/">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09282016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/128x128/app-store.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09282016a"><h2>Search Ads Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 28, 2016</p>
+																											<span class="article-text"><p>Search Ads is an efficient and easy way to promote your app on the App Store for iPhone and iPad in the U.S., helping customers discover it at the very moment they are searching for apps to download. Designed to give users a safe search experience, Search&nbsp;Ads sets a new standard for delivering relevant ads while respecting user privacy.</p><p>Ads go live on the App Store on October 5. For a limited time, eligible developers can receive a $100 credit toward their first campaign when they <span class="nowrap"><a href="https://searchads.apple.com/?cid=sa-in-us-drnws">sign up for Search Ads</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09232016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" width="160" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09232016a"><h2>New Apple Product Images and Messaging Guidelines</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 23, 2016</p>
+																											<span class="article-text"><p>Images of iPhone 7, iPhone 7 Plus, and Apple Watch Series 2 are now available for you to use in marketing materials for your apps on the App Store. You can also get guidance on marketing and messaging iMessage apps, as well as showing your app’s screen content within Apple products such as Siri and Maps. Download the images and read the updated information in the  <span class="nowrap"><a href="/app-store/marketing/">App Store Marketing Guidelines</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09222016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/notifications-mac/notifications-mac-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09222016a"><h2>Token Authentication Now Available for Push Notifications</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 22, 2016</p>
+																											<span class="article-text"><p>You can now take advantage of a simpler method of authentication by using tokens instead of certificates when sending push notifications. A token is easy to generate, doesn’t expire, and can be used to send notifications to all of your apps. <a href="https://developer.apple.com/go/?id=push-notifications">Learn more about push notifications.</a></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09212016b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/swift-playgrounds/swift-playgrounds-outline-128x128.png" width="128" height="128" alt="Swift Playgrounds">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09212016b"><h2>Controlling Robots using Swift Playgrounds on iPad</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 21, 2016</p>
+																											<span class="article-text"><p>At WWDC16 we demonstrated controlling a Sphero SPRK+ robot on stage, driven by the Swift Playgrounds app on iPad. The playground has been updated for the latest release of Swift Playgrounds on the App Store. Visit the <a href="/swift/blog/?id=38">Swift blog</a> to download the file and run it on your iPad to see how it works, and learn to write code that lets you control the robot in additional ways.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09132016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/sales-and-trends/sales-and-trends-128x128.png" width="128" height="128" alt="Sales and Trends">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09132016a"><h2>New Subscriptions Data and Reports are Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 13, 2016</p>
+																											<span class="article-text"><p>You can now get more data about your auto-renewable subscriptions in iTunes Connect. The new Subscriptions page in Sales and Trends makes it easy to view key metrics and two new reports provide details into subscriber activity. <a href="https://itunespartner.apple.com/en/apps/news/5721783">Learn more</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09072016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/128x128/app-store.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09072016a"><h2>Submit Your Apps to the App Store</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 7, 2016</p>
+																											<span class="article-text"><p>You can now submit your apps that take advantage of exciting new features available in the next release of macOS, iOS, watchOS, and tvOS. And with the new <span class="nowrap"><a href="/app-store/imessage-app-submissions/">App Store for iMessage</a></span>, users will be able to download your iMessage apps and sticker packs directly within Messages.</p><p>Build your apps using Xcode 8 GM seed, test with the GM seeds of macOS Sierra, iOS 10, watchOS 3, tvOS 10, and submit them for review. To learn more about preparing your submissions for the App Store, see <span class="nowrap"><a href="/app-store/submissions/">Submitting Your Apps</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09012016b" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/app-review-guidelines/app-review-guidelines-128x128.png" width="128" height="128" alt="App Store Review Guidelines">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09012016b"><h2>Updated Guidelines Now Available</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 1, 2016</p>
+																											<span class="article-text"><p>The App Store Review Guidelines have been updated to include information on <a href="/app-store/subscriptions/">subscriptions</a>, <a href="/sirikit/">SiriKit</a>, and <a href="/imessage/">iMessage</a>. As you plan and develop your apps for the upcoming releases of iOS 10, <span class="nowrap">macOS Sierra,</span> watchOS, and tvOS, make sure to read these updated guidelines.</p><p><span class="nowrap"><a href="/app-store/review/guidelines/">See the App Store Review Guidelines</a>.</span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-09012016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=09012016a"><h2>App Store Improvements</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">September 1, 2016</p>
+																											<span class="article-text"><p>We love helping customers discover innovative, useful, and exciting apps on the App Store. With more than 2 million apps available and around 100,000 new and updated apps submitted each week, there’s something for everyone. To make it easier for customers to find great apps that fit their needs, we’re implementing two suggestions from the developer community starting September 7, 2016.</p></span>
+																		<p><a class="arrow-right" href="/news/?id=09012016a">Read more</a></p>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-08242016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/safari/safari-128x128_2x.png" width="128" height="128" alt="Safari">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=08242016a"><h2>Safari Extensions in Safari 10</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">August 24, 2016</p>
+																											<span class="article-text"><p>Create Safari Extensions that give users access to your app’s best features as they browse the web. Xcode makes it simple to add Safari Extensions to your existing app by using an App Extensions template. Easily develop your extensions using powerful, native APIs and web technologies. And coming this fall with macOS Sierra, you can sell and distribute apps with Safari Extensions on the Mac App Store. <span class="nowrap"><a href="/safari/extensions/">Learn more about Safari Extensions.</a></span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-08232016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/messages/messages-128x128_2x.png" width="128" height="128" alt="Messages Framework">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=08232016a"><h2>Get Your iMessage Apps Ready</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">August 23, 2016</p>
+																											<span class="article-text"><p>Take advantage of the new Messages framework in iOS 10 to create an app extension that lets people interact with your iOS app directly within Messages. Users can easily create and share content, add stickers, make payments, and more, without leaving their conversations. And coming this fall, you can make iMessage apps available for download directly on the App Store for iMessage.  <span class="nowrap"><a href="/imessage/">Learn more about iMessage apps</a>.</span></p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-08082016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=08082016a"><h2>Simplified Screenshot Submission Process</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">August 8, 2016</p>
+																											<span class="article-text"><p>Now it’s easier than ever to deliver your screenshots and app preview using iTunes Connect. Submit just one set of screenshots and one optional app preview per device family, and they will be used across device sizes and localizations.</p><p>If your app’s UI or behavior changes based on device size, or if you would like to include localized screenshots, you can use the new Media Manager to add custom screenshots. Learn more by watching <span class="nowrap"><a href="https://developer.apple.com/videos/play/wwdc2016/305/?time=1700/">What's New in iTunes Connect</a></span> from WWDC16.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-08032016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/app-houzz.png" width="128" height="128" alt="Houzz">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=08032016a"><h2>Developer Insights Series: Creating a Great Commerce Experience</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">August 3, 2016</p>
+																											<span class="article-text"><p>Houzz shares its unique approach to e‑commerce, and how the experience evolved from a side project to a multi-platform app with tens of millions of users monthly. <span class="nowrap"><a href="/app-store/houzz/">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-07192016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/apple-pay.png" width="128" height="128" alt="Announcing Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=07192016a"><h2>Apple Pay Has Expanded to France and Hong Kong</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">July 19, 2016</p>
+																											<span class="article-text"><p>You can now support Apple Pay for your customers in France and Hong Kong, providing an easy and secure way for them to pay for physical goods and services within your app with a single touch. <a href="/apple-pay/">Learn more about Apple Pay</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-07082016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/wwdc16-160x160.png" width="160" height="160" alt="WWDC16">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=07082016a"><h2>WWDC16 Video Transcripts</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">July 8, 2016</p>
+																											<span class="article-text"><p>Take advantage of transcripts to quickly discover and share information presented in WWDC16 videos. You can search by keyword, see all instances where the keyword is mentioned in the video, go straight to the time it was mentioned, and even share a link to that specific time. <a href="/videos/wwdc2016/">Watch session videos</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-07072016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/128x128/apple-pay.png" width="128" height="128" alt="Announcing Apple Pay">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=07072016a"><h2>Apple Pay Has Expanded to Switzerland</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">July 7, 2016</p>
+																											<span class="article-text"><p>You can now support Apple Pay for your customers in Switzerland, providing an easy and secure way for them to pay for physical goods and services within your app with a single touch.  <span class="nowrap"><a href="/apple-pay/">Learn more about Apple Pay</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-06232016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/app-lifeline.png" width="128" height="128" alt="LifeLine">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=06232016a"><h2>Developer Insights Series: Using the Paid Business Model</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">June 23, 2016</p>
+																											<span class="article-text"><p>Find out why 3 Minute Games chose the paid business model for their Lifeline apps, and how the studio keeps users engaged between releases.  <span class="nowrap"><a href="/app-store/three-minute-games/">Learn more</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-06162016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/app-store/app-store-128x128.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=06162016a"><h2>Testing, Optimizing, and Analyzing <span class="nowrap">Your Apps</span></h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">June 16, 2016</p>
+																											<span class="article-text"><p>We’ve added new features and resources to help you test, optimize, and analyze your apps.</p><p><strong>TestFlight Updates</strong><br>TestFlight now supports apps built for the new beta of iOS, watchOS, and tvOS, which means that you can get feedback from testers on features like SiriKit, Push Notifications for tvOS, new iOS Extension APIs, and more. <a href="/testflight/release-notes/">Read the TestFlight release notes</a>.</p><p><strong>App Store Optimization</strong><br>Search queries account for over 65% of downloads from the <span class="nowrap">App Store</span>. Learn how you can impact where your app ranks in search results to help users more easily find your app. <a href="/app-store/search/"><span class="nowrap">Read Optimizing for App Store Search</span></a>.</p><p><strong>App Analytics Impressions</strong><br>App Analytics now has data on App Store Impressions, which means you can see how many times your app’s icon has been viewed on the App Store in search results, Featured, Top Charts, and your App Store product page. With App Store Impressions, you can calculate how often users download your app after viewing it anywhere on the App Store. <span class="nowrap"><a href="/app-store/app-analytics/">Learn more about App Analytics</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-060142016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="https://devimages.apple.com.edgekey.net/news/images/ada16-news.jpg" width="128" height="128" alt="Apple Design Awards">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=060142016a"><h2>Winners of the 2016 Apple Design Awards</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">June 14, 2016</p>
+																											<span class="article-text"><p>Read about these talented developers and their apps, which reflect the best in design, innovation, and technology on Apple platforms. <a href="/design/awards/"><span class="nowrap">See the winners</span></a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-06132016c" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/128x128/app-store.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=06132016c"><h2>New App Store Review Guidelines</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">June 13, 2016</p>
+																											<span class="article-text"><p>We’ve rewritten the App Review Guidelines to be more helpful, provide more context, and incorporate the guidelines for Mac apps.  We hope these updates will help your app sail through App Review. While the guidelines themselves haven’t changed, the previous App Store and Mac App Store Review Guidelines will remain available for apps currently in the review process.   <span class="nowrap"><a href="/app-store/review/guidelines/">View the new App Store Review Guidelines</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-06132016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/wwdc16-160x160.png" width="160" height="160" alt="WWDC16">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=06132016a"><h2>WWDC16. Now Live Streaming</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">June 13, 2016</p>
+																											<span class="article-text"><p>See the latest advancements in macOS, iOS, watchOS, and tvOS with over 100 sessions presented by Apple engineers at this year’s conference. We’re live streaming all sessions daily and posting videos and related sample code throughout the week. <br><a href="/wwdc/live/">Watch WWDC session videos</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-06082016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/128x128/app-store.png" width="128" height="128" alt="App Store">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=06082016a"><h2>Coming Soon to the <span class="nowrap">App Store</span></h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">June 8, 2016</p>
+																											<span class="article-text"><p>We’re introducing exciting new capabilities and tools designed to help grow your app’s business and engage with new and existing customers on the <span class="nowrap">App Store</span>.</p><p><strong>Search Ads</strong><br>Search Ads is an efficient and easy way for you to promote your app directly within the U.S. App Store search results, helping customers discover or reengage with your app while respecting their privacy. Starting this summer, you’ll be able to participate in the Search Ads beta and see the ads in action. <span class="nowrap"> <a href="/app-store/search-ads/">Learn more about Search Ads</a>.</p><p><strong>Subscription Enhancements</strong><br>We’re opening auto-renewable subscriptions to all app categories including games, increasing developer revenue for eligible subscriptions after one year, providing greater pricing flexibility, and more. <span class="nowrap"><a href="/app-store/subscriptions/whats-new/">Learn about what’s new in subscriptions</a></span>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-05192016a" class="article thumbnail divider-bottom">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/news/images/wwdc16-160x160.png" width="160" height="160" alt="WWDC16">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=05192016a"><h2>Hello, San Francisco!</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">May 19, 2016</p>
+																											<span class="article-text"><p>Apple’s developer community will come together at WWDC16 in San Francisco to see the future of Apple platforms and connect with thousands of developers from all around the world. In addition to the activities planned for conference attendees, a variety of other exciting developer events will take place throughout the week in San Francisco. If you’re attending the conference or will be in the area during WWDC, <a href="/wwdc/attending/#around-san-francisco">learn about these other developer events</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+					
+					<article id="article-05122016a" class="article thumbnail ">
+						<section class="row">
+							<section class="col-33 right no-padding-bottom">
+																								<div class="article-image-wrapper">
+									<img class="article-image center" src="/assets/elements/icons/apple-music/apple-music-128x128.png" width="128" height="128" alt="Apple Music">
+								</div>
+															</section>
+							<section class="col-66 left">
+																								<a class="article-title" href="/news/?id=05122016a"><h2>Apple Music in iOS 9.3</h2></a>
+								
+																<div class="article-text-wrapper">
+									<p class="lighter smaller article-date">May 12, 2016</p>
+																											<span class="article-text"><p>Provide controls for Apple Music within your app. iOS 9.3 now supports playback of any song for Apple Music members. To learn more about the new features, guidelines, and affiliate program, see <a href="https://affiliate.itunes.apple.com/resources/documentation/apple-music-best-practices-for-app-developers/">Apple Music Best Practices for App Developers</a>.</p></span>
+																																			</div>
+							</section>
+						</section>
+
+
+					</article>
+									</section>
+			</section>
+
+		</section>
+
+	</main>
+
+	<section class="footer-wrapper">
+		<footer id="globalfooter" role="contentinfo">
+			<nav class="footer-breadory">
+				<a href="/" class="home breadcrumbs-home"><span aria-hidden="true"></span><span class="breadcrumbs-home-label">Developer</span></a>
+				<section class="breadcrumbs">
+					<ol class="breadcrumbs-list">
+												<li>News and Updates</li>
+											</section>
+				</nav>
+				<div class="ac-gf-footer-legal">
+  <div class="ac-gf-footer-news"> To receive the latest developer news, visit and subscribe to our <a href="/news/">News and Updates</a>. </div>
+  <div class="ac-gf-footer-legal-copyright">Copyright ©  2017 Apple Inc. All rights reserved.</div>
+  <div class="ac-gf-footer-legal-links">
+    <a href="https://www.apple.com/legal/internet-services/terms/site.html" class="first">Terms of Use</a>
+    <a href="https://www.apple.com/privacy/privacy-policy/">Privacy Policy</a>
+    <a href="/bug-reporting/">Report Bugs</a>
+    <a href="/contact/submit/?subject=website-feedback">Feedback</a>
+  </div>
+  <div class="ac-gf-footer-language-links">
+    <a href="/cn/" lang="zh" class="first">简体中文</a>
+    <a href="/jp/" lang="ja">日本語</a>
+    <a href="/kr/" lang="ko">한국어</a>
+  </div>
+</div>
+			</footer><!-- globalfooter -->
+		</section><!-- footer-wrapper -->
+
+	</body>
+	</html>
